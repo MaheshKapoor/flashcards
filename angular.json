@@ -1,0 +1,263 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "angular5": {
+      "root": "",
+      "sourceRoot": "src",
+      "projectType": "application",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "aot": true,
+            "outputPath": "dist/angular5/browser",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "tsConfig": "src/tsconfig.app.json",
+            "polyfills": "src/polyfills.ts",
+            "assets": [
+              "src/assets",
+              "src/favicon.ico",
+              "src/robots.txt",
+              "src/sitemap.xml"
+            ],
+            "styles": [
+              "src/styles.css"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "angular5:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "angular5:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "angular5:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/test.ts",
+            "karmaConfig": "./karma.conf.js",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "src/tsconfig.spec.json",
+            "scripts": [],
+            "styles": [
+              "src/styles.css"
+            ],
+            "assets": [
+              "src/assets",
+              "src/favicon.ico",
+              "src/robots.txt",
+              "src/sitemap.xml"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "src/tsconfig.app.json",
+              "src/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "server": {
+          "builder": "@angular-devkit/build-angular:server",
+          "options": {
+            "outputPath": "dist/angular5/server",
+            "main": "server.ts",
+            "tsConfig": "src/tsconfig.server.json"
+          },
+          "configurations": {
+            "production": {
+              "outputHashing": "media",
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "sourceMap": false,
+              "extractLicenses": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve-ssr": {
+          "builder": "@nguniversal/builders:ssr-dev-server",
+          "configurations": {
+            "development": {
+              "browserTarget": "angular5:build:development",
+              "serverTarget": "angular5:server:development"
+            },
+            "production": {
+              "browserTarget": "angular5:build:production",
+              "serverTarget": "angular5:server:production"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "prerender": {
+          "builder": "@nguniversal/builders:prerender",
+          "options": {
+            "routes": [
+              "/",
+              "/flashcard",
+              "/flashcard/AGE2TRANSPORTATIONFLASHCARD",
+              "/flashcard/AGE2VEGETABLEFLASHCARD",
+              "/flashcard/AGE2FRUITSFLASHCARD",
+              "/flashcard/AGE2ANIMALSFLASHCARD",
+              "/flashcard/AGE2SHAPESFLASHCARD",
+              "/flashcard/AGE2NUMBERSFLASHCARD",
+              "/flashcard/AGE2ALPHABETUPPERFLASHCARD",
+              "/flashcard/AGE3COUNTINGFLASHCARD",
+              "/flashcard/AGE3GESTUREFLASHCARD",
+              "/flashcard/AGE3HOMEAPPLINCEFLASHCARD",
+              "/flashcard/AGE3COLORFLASHCARD",
+              "/flashcard/AGE3SHAPESFLASHCARD",
+              "/flashcard/AGE3WEATHERWORDSFLASHCARD",
+              "/flashcard/AGE3TRANSPORTATIONFLASHCARD",
+              "/flashcard/AGE3ANIMALSFLASHCARD",
+              "/flashcard/AGE3VEGETABLEFLASHCARD",
+              "/flashcard/AGE3FRUITSFLASHCARD",
+              "/flashcard/AGE3NUMBERSFLASHCARD",
+              "/flashcard/AGE3ALPHABETUPPERFLASHCARD",
+              "/flashcard/AGE2BODYPARTSFLASHCARD",
+              "/flashcard/AGE3VERBFLASHCARD",
+              "/flashcard/AGE3ACTIVITYFLASHCARD",
+              "/flashcard/AGE3FAMILYFLASHCARD",
+              "/flashcard/AGE3ACTIONFLASHCARD",
+              "/quiz",
+              "/quiz/MATHL001E181009001",
+              "/quiz/MATHL001E181009002",
+              "/quiz/MATHL001E181009000",
+              "/quiz/NEWZLANDHISTORYQ00001",
+              "/quiz/NEWZLANDPOLIQ00001",
+              "/quiz/NEWZLANDSPOTSQ00001",
+              "/quiz/NEWZLANDGKQ00001",
+              "/quiz/AUSCORPQ00001",
+              "/quiz/AUSHISTORYQ00001",
+              "/quiz/AUSPOLIQ00001",
+              "/quiz/AUSSPOTSQ00001",
+              "/quiz/AUSGKQ00001",
+              "/quiz/DKTNSW00E181003TS3",
+              "/quiz/DKTNSW00E181003TS2",
+              "/quiz/DKTNSW00E181003TS1",
+              "/quiz/DKTNSW00E181127SB1",
+              "/quiz/DKTNSW00E181127SP1",
+              "/quiz/DKTNSW00E181127P02",
+              "/quiz/DKTNSW00E181127P01",
+              "/quiz/DKTNSW00E181126ND1",
+              "/quiz/DKTNSW00E181126ND2",
+              "/quiz/DKTNSW00E181127I03",
+              "/quiz/DKTNSW00E181127I02",
+              "/quiz/DKTNSW00E181127I01",
+              "/quiz/DKTNSW00E181127FD1",
+              "/quiz/DKTNSW00E181127BS1",
+              "/quiz/DKTNSW00E181127AD1",
+              "/quiz/DKTNSW00E181003GK4",
+              "/quiz/DKTNSW00E181003GK3",
+              "/quiz/DKTNSW00E181003GK2",
+              "/quiz/DKTNSW00E181003GK1",
+              "/quiz/DKTNSW00E181127ALL",
+              "/quiz/DKTNSW00E181003FL6",
+              "/quiz/DKTNSW00E181003FL5",
+              "/quiz/DKTNSW00E181003FL4",
+              "/quiz/DKTNSW00E181003FL3",
+              "/quiz/DKTNSW00E181003FL2",
+              "/quiz/DKTNSW00E181003FL1"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "angular5:build:production",
+              "serverTarget": "angular5:server:production"
+            },
+            "development": {
+              "browserTarget": "angular5:build:development",
+              "serverTarget": "angular5:server:development"
+            }
+          },
+          "defaultConfiguration": "production"
+        }
+      }
+    },
+    "angular5-e2e": {
+      "root": "e2e",
+      "sourceRoot": "e2e",
+      "projectType": "application",
+      "architect": {
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "./protractor.conf.js",
+            "devServerTarget": "angular5:serve"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "e2e/tsconfig.e2e.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "angular5",
+  "schematics": {
+    "@schematics/angular:component": {
+      "prefix": "app",
+      "style": "css"
+    },
+    "@schematics/angular:directive": {
+      "prefix": "app"
+    }
+  }
+}
