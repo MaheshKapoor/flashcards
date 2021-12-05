@@ -4,7 +4,7 @@
       "quizTitle":"Age 3 home appliances flashcard",
       "previousSet":"DKTNSW00E181127SP1",
       "nextSet":null,
-      "numberOfQuestion":"17",
+      "numberOfQuestion":"16",
       "keywords":"",
       "description":"",
       "url":"",
@@ -33,10 +33,6 @@
       },
       {
         "imageName":"/flashCard/house/appliances/dishwasher.png",
-        "qn":"Guess the home appliance?"
-      },
-      {
-        "imageName":"/flashCard/house/appliances/extractorhood.png",
         "qn":"Guess the home appliance?"
       },
       {

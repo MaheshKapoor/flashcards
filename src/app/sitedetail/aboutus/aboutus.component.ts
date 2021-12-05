@@ -17,22 +17,22 @@ export class AboutUsComponent implements OnInit {
   }
 
   updateMetaTags() {
-    this.title.setTitle("About Us - Practise Point");
+    this.title.setTitle("About Us - Omishaan Flashcards");
     this.meta.updateTag({
       name: "description",
-      content: "About Us - Practise Point"
+      content: "About Us - Omishaan Flashcards"
     });
     this.meta.updateTag({
       name: "keywords",
       content: "Digital Flashcards,  alphabets flashcard, numbers flashcard, fruits flashcard, vegetables flashcard, weathers flashcard, shapes flashcard, colors flashcard, transportation flashcard, animals flashcard, gestures flashcard, clothes flashcard, food flashcard, family flashcard, birds flashcard, plants flashcard"
     });
-    this.meta.updateTag({property: "og:url", content: "https://practisepoint.com/aboutus"});
-    this.meta.updateTag({property: "og:image", content: "https://practisepoint.com/assets/img/age2speechbanner.png"});
+    this.meta.updateTag({property: "og:url", content: "https://omishaan.com/aboutus"});
+    this.meta.updateTag({property: "og:image", content: "https://omishaan.com/assets/img/age2speechbanner.png"});
     this.meta.updateTag({
       property: "og:description",
-      content: "About Us - Practise Point"
+      content: "About Us - Omishaan Flashcards"
     });
-    this.meta.updateTag({property: "og:title", content: "About Us - Practise Point"});
+    this.meta.updateTag({property: "og:title", content: "About Us - Omishaan Flashcards"});
   }
 
 }

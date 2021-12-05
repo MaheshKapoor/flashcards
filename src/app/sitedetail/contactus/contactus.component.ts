@@ -17,22 +17,22 @@ export class ContactUsComponent implements OnInit {
   }
 
   updateMetaTags() {
-    this.title.setTitle("Contact Us - Practise Point");
+    this.title.setTitle("Contact Us - Omishaan Flashcards");
     this.meta.updateTag({
       name: "description",
-      content: "Contact Us - Practise Point"
+      content: "Contact Us with your suggestions and feedback of our Kido Flashcards"
     });
     this.meta.updateTag({
       name: "keywords",
       content: "Digital Flashcards,  alphabets flashcard, numbers flashcard, fruits flashcard, vegetables flashcard, weathers flashcard, shapes flashcard, colors flashcard, transportation flashcard, animals flashcard, gestures flashcard, clothes flashcard, food flashcard, family flashcard, birds flashcard, plants flashcard"
     });
-    this.meta.updateTag({property: "og:url", content: "https://practisepoint.com/contactus"});
-    this.meta.updateTag({property: "og:image", content: "https://practisepoint.com/assets/img/age2speechbanner.png"});
+    this.meta.updateTag({property: "og:url", content: "https://omishaan.com/contactus"});
+    this.meta.updateTag({property: "og:image", content: "https://omishaan.com/assets/img/age2speechbanner.png"});
     this.meta.updateTag({
       property: "og:description",
-      content: "Contact Us - Practise Point"
+      content: "Contact Us with your suggestions and feedback of our Kido Flashcards"
     });
-    this.meta.updateTag({property: "og:title", content: "Contact Us - Practise Point"});
+    this.meta.updateTag({property: "og:title", content: "Contact Us - Omishaan Flashcards"});
   }
 
 }

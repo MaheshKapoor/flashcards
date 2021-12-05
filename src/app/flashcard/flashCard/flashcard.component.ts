@@ -12,6 +12,7 @@ import {Meta, Title} from "@angular/platform-browser";
 
 })
 export class FlashCardComponent implements OnInit {
+  order       : string;
   id          : string;
   quizTitle   : string;
   keywords    : string;
@@ -21,50 +22,33 @@ export class FlashCardComponent implements OnInit {
   constructor(public router: Router, public quizService: QuizService, public activeRoute: ActivatedRoute,
               public dktService: DKTService, public meta: Meta, public title: Title) {
     this.activeRoute.queryParams.subscribe(params => {
-      this.id = this.activeRoute.snapshot.paramMap.get("id");//params['id'];
-      //localStorage.setItem('id',this.id);
+      this.order = params['order'];;
+      this.id = this.activeRoute.snapshot.paramMap.get("id");
+
     });}
 
   ngOnInit() {
-    this.updateMetaTags();
-    // if ((this.id === localStorage.getItem('current')) && localStorage.getItem('qns')) {
-    //
-    //   this.quizService.seconds = 0;//parseInt(localStorage.getItem('seconds'));
-    //   this.quizService.qnProgress = 0;// parseInt(localStorage.getItem('qnProgress'));
-    //   this.quizService.numberOfQuestions = parseInt(localStorage.getItem('numberOfQuestion'));
-    //   this.quizService.qns = JSON.parse(localStorage.getItem('qns'));
-    //
-    //   if (this.quizService.qnProgress == parseInt(localStorage.getItem('numberOfQuestion'))){
-    //     this.router.navigate(['/speechdevelopment'], {queryParamsHandling:'preserve'});}
-    //   else{
-    //     this.startTimer();
-    //   }
-    // }
-    // else {
-      //localStorage.setItem('current',this.id);
+      this.updateMetaTags();
       this.showLoadingSpinner();
       this.quizService.seconds = 0;
       this.quizService.qnProgress = 0;
       this.dktService.getDktData(this.id).subscribe(
         (data: any) => {
-          // localStorage.setItem('nextSet',data.data.extraDetails.nextSet);
-          // localStorage.setItem('previousNext',data.data.extraDetails.previousSet);
-          // localStorage.setItem('numberOfQuestion',data.data.extraDetails.numberOfQuestion);
-          // localStorage.setItem('pageTitle', data.data.extraDetails.quizTitle);
           this.quizTitle = data.data.extraDetails.quizTitle;
           this.description = data.data.extraDetails.description;
           this.keywords = data.data.extraDetails.keywords;
           this.url = data.data.extraDetails.url;
           this.imageUrl = data.data.extraDetails.imageUrl;
           this.quizService.numberOfQuestions=data.data.extraDetails.numberOfQuestion;
-          this.quizService.qns = this.shuffleArray(data.data.questions);
-          this.shuffleArray(['a', 'b', 'c']);
-          this.updateMetaTags();
+          if(this.order && this.order === "true"){
+            this.quizService.qns = data.data.questions;
+          }else{
+            this.quizService.qns = this.shuffleArray(data.data.questions);
+          }
           this.hideLoadingSpinner();
           this.startTimer();
         }
       );
-    //}
   }
 
   shuffleArray(array) {
@@ -77,10 +61,6 @@ export class FlashCardComponent implements OnInit {
     return array;
   }
 
-  // updateMetaTags(){
-  //   this.title.setTitle(localStorage.getItem("pageTitle"));
-  //   this.meta.updateTag( {name: "description", content: localStorage.getItem("pageTitle") + "-Actual DKT full Practice test.Tips to pass DKT test in first attempt."});
-  // }
   showLoadingSpinner() {
     this.quizService.showSpinner = true;
   }
@@ -92,7 +72,6 @@ export class FlashCardComponent implements OnInit {
   startTimer() {
     this.quizService.timer = setInterval(() => {
       this.quizService.seconds++;
-    //   localStorage.setItem('seconds', this.quizService.seconds.toString());
     }, 1000);
   }
 
@@ -102,15 +81,15 @@ export class FlashCardComponent implements OnInit {
    //   localStorage.setItem('qnProgress', this.quizService.qnProgress.toString());
       clearInterval(this.quizService.timer);
       if(this.id && (this.id.slice(0,4)=== "AGE4")){
-        this.router.navigate(['/age4speechdevelopment']);
+        this.router.navigate(['/main']);
       } else if(this.id && (this.id.slice(0,4)=== "AGE3")){
-        this.router.navigate(['/age3speechdevelopment']);
+        this.router.navigate(['/main']);
       } else if(this.id && (this.id.slice(0,4)=== "AGE2")){
-        this.router.navigate(['/age2speechdevelopment']);
+        this.router.navigate(['/main']);
       } else if(this.id && (this.id.slice(0,4)=== "AGE1")) {
-        this.router.navigate(['/age1speechdevelopment']);
+        this.router.navigate(['/main']);
       } else{
-        this.router.navigate(['/speechdevelopment']);
+        this.router.navigate(['/main']);
       }
 
       this.quizService.isSubmitDisable=true;

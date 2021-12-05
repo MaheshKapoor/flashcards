@@ -78,6 +78,12 @@ ul .selected{
 }
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
+    html{
+    font-size:20px;
+    }
+
+
+
   .questionImage{
     width:100% !important;
     margin:0px;
@@ -85,10 +91,27 @@ ul .selected{
     background-size: 100% 100%;
   }
 
+  .card-image img {
+    height: auto !important;
+  }
+
 }
 
 
 @media only screen and (max-width: 767px) {
+  html{
+    font-size:20px;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+    line-height: 110%;
+    margin-top: 2.1rem;
+    margin-right: 0px;
+    margin-bottom: 1.68rem;
+    margin-left: 0px;
+  }
+
   .card .card-content{
     padding: 0px;
   }

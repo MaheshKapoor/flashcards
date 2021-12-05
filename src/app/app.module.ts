@@ -13,7 +13,6 @@ import { appRoutes } from './routes';
 // import {appRoutes, AppRoutingModule} from './routes';
 import { QuizService } from './shared/quiz.service';
 import { AuthGuard } from './auth/auth.guard';
-import { DktComponent } from './dkt/dkt.component';
 import { FooterComponent } from './footer/footer.component';
 import { ErrorComponent } from './error/error.component';
 import { ProgressbarComponent } from './progressbar/progressbar.component';
@@ -31,6 +30,26 @@ import {TandCComponent} from "./sitedetail/TermsAndConditions/tandc.component";
 import {ContactUsComponent} from "./sitedetail/contactus/contactus.component";
 import {AboutUsComponent} from "./sitedetail/aboutus/aboutus.component";
 import {QuicklinkModule} from "ngx-quicklink";
+import {AlphabetComponent} from "./flashcard/alphabet/alphabet.component";
+import {VegetablesComponent} from "./flashcard/vegetables/vegetables.component";
+import {FruitsComponent} from "./flashcard/fruits/fruits.component";
+import {AnimalsComponent} from "./flashcard/animals/animals.component";
+import {NumberComponent} from "./flashcard/numbers/number.component";
+import {VerbComponent} from "./flashcard/verbs/verb.component";
+import {TransportationComponent} from "./flashcard/transportation/transportation.component";
+import {SportComponent} from "./flashcard/sports/sport.component";
+import {ShapeComponent} from "./flashcard/shapes/shape.component";
+import {PlaceComponent} from "./flashcard/places/place.component";
+import {ProfessionComponent} from "./flashcard/professions/profession.component";
+import {EmotionComponent} from "./flashcard/emotions/emotion.component";
+import {GestureComponent} from "./flashcard/gestures/gesture.component";
+import {FlowerComponent} from "./flashcard/flowers/flower.component";
+import {ClotheComponent} from "./flashcard/clothes/clothe.component";
+import {ColorComponent} from "./flashcard/colors/color.component";
+import {CountingComponent} from "./flashcard/counting/counting.component";
+import {CapitalComponent} from "./flashcard/capital/capital.component";
+import {ActivityComponent} from "./flashcard/activities/activity.component";
+import {ActionComponent} from "./flashcard/actions/action.component";
 
 
 @NgModule({
@@ -39,7 +58,6 @@ import {QuicklinkModule} from "ngx-quicklink";
     NavbarComponent,
     QuizComponent,
     ResultComponent,
-    DktComponent,
     FlashCardComponent,
     Age1Component,
     Age2Component,
@@ -55,7 +73,27 @@ import {QuicklinkModule} from "ngx-quicklink";
     PrivacyPolicyComponent,
     ContactUsComponent,
     TandCComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    AlphabetComponent,
+    VegetablesComponent,
+    FruitsComponent,
+    AnimalsComponent,
+    NumberComponent,
+    VerbComponent,
+    TransportationComponent,
+    SportComponent,
+    ShapeComponent,
+    ProfessionComponent,
+    PlaceComponent,
+    GestureComponent,
+    EmotionComponent,
+    FlowerComponent,
+    ClotheComponent,
+    ColorComponent,
+    CountingComponent,
+    ActionComponent,
+    ActivityComponent,
+    CapitalComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
