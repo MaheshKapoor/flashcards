@@ -81,15 +81,15 @@ export class FlashCardComponent implements OnInit {
    //   localStorage.setItem('qnProgress', this.quizService.qnProgress.toString());
       clearInterval(this.quizService.timer);
       if(this.id && (this.id.slice(0,4)=== "AGE4")){
-        this.router.navigate(['/main']);
+        this.router.navigate(['/']);
       } else if(this.id && (this.id.slice(0,4)=== "AGE3")){
-        this.router.navigate(['/main']);
+        this.router.navigate(['/']);
       } else if(this.id && (this.id.slice(0,4)=== "AGE2")){
-        this.router.navigate(['/main']);
+        this.router.navigate(['/']);
       } else if(this.id && (this.id.slice(0,4)=== "AGE1")) {
-        this.router.navigate(['/main']);
+        this.router.navigate(['/']);
       } else{
-        this.router.navigate(['/main']);
+        this.router.navigate(['/']);
       }
 
       this.quizService.isSubmitDisable=true;
@@ -105,7 +105,7 @@ export class FlashCardComponent implements OnInit {
     localStorage.setItem('qnProgress', this.quizService.qnProgress.toString());
     if (this.quizService.qnProgress == this.quizService.numberOfQuestions) {
       clearInterval(this.quizService.timer);
-      this.router.navigate(['/speechdevelopment']);
+      this.router.navigate(['/']);
     }
   }
 
@@ -113,8 +113,8 @@ export class FlashCardComponent implements OnInit {
     this.title.setTitle(this.quizTitle? this.quizTitle:"Flashcard for speech improvement, development and therapy.");
     this.meta.updateTag(  {name: "description", content: this.description? this.description : "Achieve speech milestones of the kid in speech development process. Flashcard for speech improvement, development and therapy for toddler kids age 1, 2, 3, 4, 5. Digital flash cards to improve english vocabulary."});
     this.meta.updateTag(  {name : "keywords", content: this.keywords? this.keywords :"speech milestones, Speech development, speech improvement, speech therapy, toddlers, age 1, age 2, age 3, age 4, age 5, Digital Flashcards,  alphabets flashcard, numbers flashcard, fruits flashcard, vegetables flashcard, weathers flashcard, shapes flashcard, colors flashcard, transportation flashcard, animals flashcard, gestures flashcard, clothes flashcard, food flashcard, family flashcard, birds flashcard, plants flashcard, activities flashcard"});
-    this.meta.updateTag(  {property : "og:url", content: this.url? this.url:"https://practisepoint.com/speechdevelopment"});
-    this.meta.updateTag(  {property : "og:image", content: this.imageUrl? this.imageUrl:"https://practisepoint.com/assets/img/speechdevelopmentbanner.jpg"});
+    this.meta.updateTag(  {property : "og:url", content: this.url? this.url:"https://omishaan.com/speechdevelopment"});
+    this.meta.updateTag(  {property : "og:image", content: this.imageUrl? this.imageUrl:"https://omishaan.com/assets/img/speechdevelopmentbanner.jpg"});
     this.meta.updateTag(  {property : "og:description", content: this.description? this.description:"Achieve speech milestones of the kid in speech development process.. Flashcard for speech improvement, development and therapy for toddler kids age 1, 2, 3, 4, 5. Digital flash cards to improve english vocabulary."});
     this.meta.updateTag(  {property : "og:title", content: this.quizTitle? this.quizTitle:"Flashcard for speech improvement, development and therapy."});
   }

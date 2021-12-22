@@ -1,0 +1,65 @@
+{
+  "data":{
+    "extraDetails":{
+      "quizTitle":"Bathroom flashcard",
+      "previousSet":"DKTNSW00E181127SP1",
+      "nextSet":null,
+      "numberOfQuestion":"9",
+      "keywords":"",
+      "description":"",
+      "url":"",
+      "imageUrl":"",
+      "referralLink":[
+        {
+          "title":"Simple Arithematic questions on Multiplication",
+          "url":"https://www.service.nsw.gov.au/transaction/driver-knowledge-test",
+          "description":"Are you ready for DKT test? Try simulation test before you go for final test."
+        },
+        {
+          "title":"Simple Arithematic questions on Substraction",
+          "url":"https://www.rms.nsw.gov.au/roads/licence/driver/tests/driver-knowledge-test.html",
+          "description":"Government website for all informationunder one umbrella."
+        }
+      ]
+    },
+    "questions":[
+      {
+        "imageName":"/flashCard/house/bathroom/bathtub.png",
+        "qn":"Guess the alphabet?"
+      },
+      {
+        "imageName":"/flashCard/house/bathroom/comb.png",
+        "qn":"Guess the alphabet?"
+      },
+      {
+        "imageName":"/flashCard/house/bathroom/hairbrush.png",
+        "qn":"Guess the alphabet?"
+      },
+      {
+        "imageName":"/flashCard/house/bathroom/sink.png",
+        "qn":"Guess the alphabet?"
+      },
+      {
+        "imageName":"/flashCard/house/bathroom/soap.png",
+        "qn":"Guess the alphabet?"
+      },
+      {
+        "imageName":"/flashCard/house/bathroom/toilet.png",
+        "qn":"Guess the alphabet?"
+      },
+      {
+        "imageName":"/flashCard/house/bathroom/toothbrush.png",
+        "qn":"Guess the alphabet?"
+      },
+      {
+        "imageName":"/flashCard/house/bathroom/toothpaste.png",
+        "qn":"Guess the alphabet?"
+      },
+      {
+        "imageName":"/flashCard/house/bathroom/towel.png",
+        "qn":"Guess the alphabet?"
+      }
+
+    ]
+  }
+}

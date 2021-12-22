@@ -19,8 +19,8 @@ export class Age3Component implements OnInit {
     this.title.setTitle("Age 3| Speech Therapy Flashcards for Speech Development at home");
     this.meta.updateTag(  {name: "description", content: "Digital flashcards for speech development, speech improvement and speech therapy used by professionals and parents at home. Digital flashcards for kids at age 3."});
     this.meta.updateTag(  {name : "keywords", content: "Digital Flashcards,  alphabets flashcard, numbers flashcard, fruits flashcard, vegetables flashcard, weathers flashcard, shapes flashcard, colors flashcard, transportation flashcard, animals flashcard, gestures flashcard, clothes flashcard, food flashcard, family flashcard, birds flashcard, plants flashcard"});
-    this.meta.updateTag(  {property : "og:url", content: "https://practisepoint.com/age3speechdevelopment"});
-    this.meta.updateTag(  {property : "og:image", content: "https://practisepoint.com/assets/img/age3speechbanner.png"});
+    this.meta.updateTag(  {property : "og:url", content: "https://omishaan.com/age3speechdevelopment"});
+    this.meta.updateTag(  {property : "og:image", content: "https://omishaan.com/assets/img/age3speechbanner.png"});
     this.meta.updateTag(  {property : "og:description", content: "Digital flashcards for speech development, speech improvement and speech therapy used by professionals and parents at home. Digital flashcards for kids at age 3."});
     this.meta.updateTag(  {property : "og:title", content: "Age 3| Speech Therapy flashcards for Speech Development"});
   }

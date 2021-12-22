@@ -26,8 +26,8 @@ export class AlphabetComponent implements OnInit {
       name: "keywords",
       content: "alphabets flashcard, uppercase alphabet flashcard, lowercase alphabet flashcard, random alphabet flashcard, recognize alphabet, digital flashcard, speech therapy flashcards, language development, flashcards age 1 to 4"
     });
-    this.meta.updateTag({property: "og:url", content: "https://practisepoint.com/alphabet-flashcard"});
-    this.meta.updateTag({property: "og:image", content: "https://practisepoint.com/assets/img/age3alphabet.png"});
+    this.meta.updateTag({property: "og:url", content: "https://omishaan.com/alphabet-flashcard"});
+    this.meta.updateTag({property: "og:image", content: "https://omishaan.com/assets/img/age3alphabet.png"});
     this.meta.updateTag({
       property: "og:description",
       content: "Play with alphabet in sequence or random order. Alphabet flashcards for early speech development, speech improvement and speech therapy used by professionals and parents at home. " +
