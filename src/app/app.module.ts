@@ -50,6 +50,9 @@ import {CountingComponent} from "./flashcard/counting/counting.component";
 import {CapitalComponent} from "./flashcard/capital/capital.component";
 import {ActivityComponent} from "./flashcard/activities/activity.component";
 import {ActionComponent} from "./flashcard/actions/action.component";
+import {MFlashCardComponent} from "./flashcard/mflashCard/mflashcard.component";
+import {MultiplicationComponent} from "./flashcard/mathematics/multiplication/multiplication.component";
+import {AdditionComponent} from "./flashcard/mathematics/addition/addition.component";
 
 
 @NgModule({
@@ -59,6 +62,7 @@ import {ActionComponent} from "./flashcard/actions/action.component";
     QuizComponent,
     ResultComponent,
     FlashCardComponent,
+    MFlashCardComponent,
     Age1Component,
     Age2Component,
     Age2Component,
@@ -93,7 +97,9 @@ import {ActionComponent} from "./flashcard/actions/action.component";
     CountingComponent,
     ActionComponent,
     ActivityComponent,
-    CapitalComponent
+    CapitalComponent,
+    MultiplicationComponent,
+    AdditionComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

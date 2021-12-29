@@ -1,0 +1,112 @@
+<div *ngIf="quizService.showSpinner" class="spiner">
+  <img src="../../assets/img/loading.gif" >
+</div>
+
+<div class="row" *ngIf="this.quizService.qnProgress != this.quizService.numberOfQuestions">
+  <div class="col s12 m5 l3 offset-s2" >
+    <!-- -->
+    <div class="row progress-container" >
+      <!-- -->
+      <app-progressbar></app-progressbar>
+    </div>
+    <div class="card #cce0ff ">
+      <div *ngIf="id === 'multiplication'">
+      <div class="row" >
+
+        <div class="" >
+          <span class="card-title"><p>Table of {{baseNumber}}</p></span>
+
+        </div>
+
+      </div>
+
+      <div class="row" align="center">
+        <div class="card-action">
+          <div class="col s12 m12 l12" style="margin: 0 auto; padding:15px 0px">
+            <div class="text-mFlashcard" *ngIf="!isPracticeMode"> {{baseNumber}} X {{quizService.qnProgress+1}} = {{(baseNumber)*(quizService.qnProgress+1)}} </div><br/>
+
+            <div class="text-mFlashcard" *ngIf="isPracticeMode">
+            {{baseNumber}} X {{multipleArr[quizService.qnProgress]}} = <span id="box" [hidden]="!toggle">{{(baseNumber)*(multipleArr[quizService.qnProgress])}}</span>
+              <button id="toggleMessage1" [hidden]="toggle" (click)="hideToggle()">?</button>
+
+              <!--{{(baseNumber)*(multipleArr[quizService.qnProgress])}}</div> <br/>-->
+            <!--{{multipleArr[quizService.qnProgress]}}-->
+          </div>
+        </div>
+      </div>
+
+      <div class="row button-container" >
+        <!-- -->
+
+        <div class="row" [hidden] ="!quizService.isSubmitDisable">
+          <div class="input-field col s12">
+            <button class="btn-large btn-submit-flashcard-next" type="button" (click)="SkipQuestion()">Next</button>
+          </div>
+        </div>
+        <div class="row" [hidden] ="quizService.isSubmitDisable">
+          <div class="input-field col s12">
+            <button class="btn-large btn-submit-flashcard-done" type="button" (click)="submitQuiz(quizService.qnProgress+1)">Done</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+
+
+      <div *ngIf="id === 'addition'">
+      <div class="row" >
+
+        <div class="" >
+          <span class="card-title"><p>Addition of {{baseNumber}} digit(s)</p></span>
+
+        </div>
+
+      </div>
+
+      <div class="row" align="center">
+        <div class="card-action">
+          <div class="col s12 m12 l12" style="margin: 0 auto; padding:15px 0px">
+            <div class="text-mFlashcard" *ngIf="!isPracticeMode">
+              &nbsp;&nbsp;&nbsp;{{operand1}} <br/>
+              + {{operand2}} <br/>
+              _______________ <br/>
+              &nbsp;&nbsp;&nbsp;{{operand1 + operand2}} </div><br/>
+
+            <div class="text-mFlashcard" *ngIf="isPracticeMode">
+
+              &nbsp;&nbsp;&nbsp;{{operand1}} <br/>
+              + {{operand2}} <br/>
+              _______________ <br/>
+              &nbsp;&nbsp;&nbsp;
+              <span id="box1" [hidden]="!toggle">{{operand1 + operand2}}</span>
+              <button id="toggleMessage2" [hidden]="toggle" (click)="hideToggle()">?</button>
+               </div><br/>
+
+
+              <!--{{baseNumber}} X {{multipleArr[quizService.qnProgress]}} = <span id="box" [hidden]="!toggle">{{(baseNumber)*(multipleArr[quizService.qnProgress])}}</span>-->
+              <!--<button id="toggleMessage2" [hidden]="toggle" (click)="hideToggle()">?</button>-->
+
+              <!--{{(baseNumber)*(multipleArr[quizService.qnProgress])}}</div> <br/>-->
+              <!--{{multipleArr[quizService.qnProgress]}}-->
+            </div>
+          </div>
+        </div>
+
+        <div class="row button-container" >
+          <!-- -->
+
+          <div class="row" [hidden] ="!quizService.isSubmitDisable">
+            <div class="input-field col s12">
+              <button class="btn-large btn-submit-flashcard-next" type="button" (click)="SkipQuestion()">Next</button>
+            </div>
+          </div>
+          <div class="row" [hidden] ="quizService.isSubmitDisable">
+            <div class="input-field col s12">
+              <button class="btn-large btn-submit-flashcard-done" type="button" (click)="submitQuiz(quizService.qnProgress+1)">Done</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+  </div>
+</div>

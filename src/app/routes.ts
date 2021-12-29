@@ -35,13 +35,16 @@ import {ColorComponent} from "./flashcard/colors/color.component";
 import {ActionComponent} from "./flashcard/actions/action.component";
 import {ActivityComponent} from "./flashcard/activities/activity.component";
 import {CapitalComponent} from "./flashcard/capital/capital.component";
-
+import {MFlashCardComponent} from "./flashcard/mflashCard/mflashcard.component";
+import {MultiplicationComponent} from "./flashcard/mathematics/multiplication/multiplication.component";
+import {AdditionComponent} from "./flashcard/mathematics/addition/addition.component";
 
 
 export const appRoutes : Routes =[
 
     {path:'quiz/:id',component:QuizComponent},
     {path:'flashcard/:id',component:FlashCardComponent},
+    {path:'flashcard/:id/:number',component:MFlashCardComponent},
     {path:'alphabet-flashcard',component:AlphabetComponent},
 
 
@@ -83,7 +86,8 @@ export const appRoutes : Routes =[
 
     {path:'math-flashcard',component:Age1Component},
     {path:'number-flashcard',component:NumberComponent},
-    {path:'multiplication-flashcard',component:Age1Component},
+    {path:'multiplication-flashcard',component:MultiplicationComponent},
+    {path:'addition-flashcard',component:AdditionComponent},
     {path:'counting-flashcard',component:CountingComponent},
 
 

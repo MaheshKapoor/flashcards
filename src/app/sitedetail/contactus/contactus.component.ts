@@ -20,7 +20,7 @@ export class ContactUsComponent implements OnInit {
     this.title.setTitle("Contact Us - Omishaan Flashcards");
     this.meta.updateTag({
       name: "description",
-      content: "Contact Us with your suggestions and feedback of our Kido Flashcards"
+      content: "Contact Us with your suggestions and feedback on Smart Kids website"
     });
     this.meta.updateTag({
       name: "keywords",
@@ -30,9 +30,9 @@ export class ContactUsComponent implements OnInit {
     this.meta.updateTag({property: "og:image", content: "https://omishaan.com/assets/img/age2speechbanner.png"});
     this.meta.updateTag({
       property: "og:description",
-      content: "Contact Us with your suggestions and feedback of our Kido Flashcards"
+      content: "Contact Us with your suggestions and feedback to Smart kids website"
     });
-    this.meta.updateTag({property: "og:title", content: "Contact Us - Omishaan Flashcards"});
+    this.meta.updateTag({property: "og:title", content: "Contact Us - Smart Kids Flashcards"});
   }
 
 }
