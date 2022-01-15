@@ -38,6 +38,8 @@ import {CapitalComponent} from "./flashcard/capital/capital.component";
 import {MFlashCardComponent} from "./flashcard/mflashCard/mflashcard.component";
 import {MultiplicationComponent} from "./flashcard/mathematics/multiplication/multiplication.component";
 import {AdditionComponent} from "./flashcard/mathematics/addition/addition.component";
+import {PeppaPigComponent} from "./flashcard/cartoon/peppapig/peppapig.component";
+import {MyFirstWordsComponent} from "./flashcard/myfirstwords/myfirstwords.component";
 
 
 export const appRoutes : Routes =[
@@ -100,6 +102,12 @@ export const appRoutes : Routes =[
     {path:'festival/christmas-flashcard',component:Age1Component},
     {path:'festival/diwali-flashcard',component:Age1Component},
     {path:'festival/halloween-flashcard',component:Age1Component},
+
+
+    {path:'peppapig-flashcard',component:PeppaPigComponent},
+
+
+    {path:'myfirstwords-flashcard',component:MyFirstWordsComponent},
 
 
     {path:'world-flashcard',component:Age1Component},
