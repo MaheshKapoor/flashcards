@@ -17,33 +17,27 @@ export class TransportationComponent implements OnInit {
   }
 
   updateMetaTags() {
-    this.title.setTitle("15+ Digital Transportation flashcards for kids age 1 to 4 years");
+    this.title.setTitle("15+ pictures of Mode of transportation flashcards");
     this.meta.updateTag({
       name: "description",
-      content: "Transportation flashcards help to learn about vehicles around us. " +
-      "Transportation flashcards may help for early speech development, speech " +
-      "improvement and speech therapy used by professionals and parents at home. " +
-      "It's basically a Language development flashcard for kids. Digital transportation " +
-      "flashcards have been created specially for kids age 1 to 4 years."
+      content: "Pictures of mode of transportation. Surface, Air and water transportation flashcards." +
+      "Images of vehicles used to move human, products and service."
     });
     this.meta.updateTag({
       name: "keywords",
-      content: "Transportation flashcard, Random order transportation flashcard, " +
-      "recognize transportation , digital flashcard, speech therapy flashcards, " +
-      "language development, flashcards for age 1 to 4"
+      content: "Transportation flashcard, pictures of Mode of transportation, " +
+      "Images of vehicles, Surface transportation, Air transportation, water transportation, " +
+      "language development, speech therapy"
 
     });
     this.meta.updateTag({property: "og:url", content: "https://omishaan.com/transportation-flashcard"});
-    this.meta.updateTag({property: "og:image", content: "https://omishaan.com/assets/img/age3transportation.png"});
+    this.meta.updateTag({property: "og:image", content: "https://omishaan.com/assets/img/transportationBanner.png"});
     this.meta.updateTag({
       property: "og:description",
-      content: "Transportation flashcards help to learn about vehicles around us. " +
-    "Transportation flashcards may help for early speech development, speech " +
-    "improvement and speech therapy used by professionals and parents at home. " +
-    "It's basically a Language development flashcard for kids. Digital transportation " +
-    "flashcards have been created specially for kids age 1 to 4 years."
+      content: "Pictures of mode of transportation. Surface, Air and water transportation flashcards." +
+      "Images of vehicles used to move human, products and service."
     });
-    this.meta.updateTag({property: "og:title", content: "15+ Digital Transportation flashcards for kids age 1 to 4 years"});
+    this.meta.updateTag({property: "og:title", content: "15+ pictures of Mode of transportation flashcards"});
   }
 
 }
