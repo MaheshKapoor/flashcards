@@ -16,32 +16,27 @@ export class ClotheComponent implements OnInit {
   }
 
   updateMetaTags() {
-    this.title.setTitle("15+ Digital Clothes flashcards for kids age 1 to 4 years");
+    this.title.setTitle("15+ Pictures of Clothes flashcards");
     this.meta.updateTag({
       name: "description",
-      content: "Clothes flashcards help to learn to identify different Clothes. " +
-      "Clothes flashcards may help for early speech development, speech improvement " +
-      "and speech therapy used by professionals and parents at home. It's basically a " +
-      "Language development flashcard for kids. Digital Clothes flashcards have been created " +
-      "specially for kids age 1 to 4 years."
+      content: "Pictures of different types of Clothes. " +
+      "Business, party, formal, uniform and casual clothes flashcards. " +
+      "Images of clothes used in different weathers"
     });
     this.meta.updateTag({
       name: "keywords",
-      content: "Clothes  flashcard, Random order Clothes flashcard, " +
-      "recognize Clothes, digital flashcard, speech therapy flashcards, " +
-      "language development, flashcards for age 1 to 4"
-    });
+      content: "images of Clothes, clothes flashcard, Party wear clothes," +
+      " business wear clothes, uniforms, casual wear clothes, ethnic wear clothes" +
+      "language development, speech therapy  "  });
     this.meta.updateTag({property: "og:url", content: "https://omishaan.com/clothes-flashcard"});
     this.meta.updateTag({property: "og:image", content: "https://omishaan.com/assets/img/clothes.png"});
     this.meta.updateTag({
       property: "og:description",
-      content: "Clothes flashcards help to learn to identify different Clothes. " +
-      "Clothes flashcards may help for early speech development, speech improvement " +
-      "and speech therapy used by professionals and parents at home. It's basically a " +
-      "Language development flashcard for kids. Digital Clothes flashcards have been created " +
-      "specially for kids age 1 to 4 years."
+      content: "Pictures of different types of Clothes. " +
+      "Business, party, formal, uniform and casual clothes flashcards." +
+      "Images of clothes used in different weathers"
     });
-    this.meta.updateTag({property: "og:title", content: "15+ Digital Clothes flashcards for kids age 1 to 4 years"});
+    this.meta.updateTag({property: "og:title", content: "15+ Pictures of Clothes flashcards"});
   }
 
 }

@@ -16,22 +16,22 @@ export class MathematicsComponent implements OnInit {
   }
 
   updateMetaTags() {
-    this.title.setTitle("Age 18 months| Speech Therapy Flashcards for Speech Development at home");
+    this.title.setTitle("Multiplication table flashcard for preschool kids");
     this.meta.updateTag({
       name: "description",
-      content: "Digital flashcards for early speech development, speech improvement and speech therapy used by professionals and parents at home. Language development flashcards for kids at age 18 months."
+      content: "Quick way to learn multiplication tables in no time. Practice mode helps to memorize tables quickly"
     });
     this.meta.updateTag({
       name: "keywords",
-      content: "Digital Flashcards,  alphabets flashcard, numbers flashcard, fruits flashcard, vegetables flashcard, weathers flashcard, shapes flashcard, colors flashcard, transportation flashcard, animals flashcard, gestures flashcard, clothes flashcard, food flashcard, family flashcard, birds flashcard, plants flashcard"
+      content: "multiplication flashcard, Table flashcard, maths flashcard, mathematics flashcard"
     });
     this.meta.updateTag({property: "og:url", content: "https://omishaan.com/age3speechdevelopment"});
     this.meta.updateTag({property: "og:image", content: "https://omishaan.com/assets/img/age2speechbanner.png"});
     this.meta.updateTag({
       property: "og:description",
-      content: "Digital flashcards for speech development, speech improvement and speech therapy used by professionals and parents at home. Digital flashcards for kids at age 1."
+      content: "Quick way to learn multiplication tables in no time. Practice mode helps to memorize tables quickly"
     });
-    this.meta.updateTag({property: "og:title", content: "Age 18 months| Speech Therapy flashcards for Speech Development"});
+    this.meta.updateTag({property: "og:title", content: "Multiplication table flashcard for preschool kids"});
   }
 
 }

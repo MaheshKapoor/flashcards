@@ -16,24 +16,27 @@ export class AlphabetComponent implements OnInit {
   }
 
   updateMetaTags() {
-    this.title.setTitle("Digital alphabet flashcards for kids age 1 to 4 years");
+    this.title.setTitle("Pictures of alphabet flashcards for kids");
     this.meta.updateTag({
       name: "description",
-      content: "Play with alphabet in sequence or random order. Alphabet flashcards for early speech development, speech improvement and speech therapy used by professionals and parents at home. " +
-      "Language development flashcards for kids. Digital alphabet flashcards for kids age 1 to 4 years."
+      content: "Pictures of alphabet (uppercase) in sequence or random order. Learn " +
+      "new words with alphabets. Alphabet flashcards for kids"
     });
     this.meta.updateTag({
       name: "keywords",
-      content: "alphabets flashcard, uppercase alphabet flashcard, lowercase alphabet flashcard, random alphabet flashcard, recognize alphabet, digital flashcard, speech therapy flashcards, language development, flashcards age 1 to 4"
+      content: "Images of alphabets flashcard, uppercase alphabet flashcard," +
+      " lowercase alphabet flashcard, random alphabet flashcard, " +
+      "recognize alphabet"
     });
     this.meta.updateTag({property: "og:url", content: "https://omishaan.com/alphabet-flashcard"});
     this.meta.updateTag({property: "og:image", content: "https://omishaan.com/assets/img/age3alphabet.png"});
     this.meta.updateTag({
       property: "og:description",
-      content: "Play with alphabet in sequence or random order. Alphabet flashcards for early speech development, speech improvement and speech therapy used by professionals and parents at home. " +
-      "Language development flashcards for kids. Digital alphabet flashcards for kids age 1 to 4 years."
+      content: "Pictures of alphabet (uppercase) in sequence or random order. Learn " +
+      "new words with alphabets. Alphabet flashcards for kids"
     });
-    this.meta.updateTag({property: "og:title", content: "Digital alphabet flashcards for kids age 1 to 4 years"});
+    this.meta.updateTag({property: "og:title",
+      content: "Pictures of alphabet flashcards for kids"});
   }
 
 }
