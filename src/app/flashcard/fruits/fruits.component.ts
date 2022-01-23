@@ -17,24 +17,21 @@ export class FruitsComponent implements OnInit {
   }
 
   updateMetaTags() {
-    this.title.setTitle("Digital fruit flashcards for kids age 1 to 4 years");
+    this.title.setTitle("20+ Pictures of fruits flashcards");
     this.meta.updateTag({
       name: "description",
-      content: "Play with fruit in sequence or random order. fruit flashcards for early speech development, speech improvement and speech therapy used by professionals and parents at home. " +
-      "Language development flashcards for kids. Digital fruit flashcards for kids age 1 to 4 years."
+      content: "Pictures and name of fruits compiled in flashcard. Learn names of fruits by recognizing the images."
     });
     this.meta.updateTag({
       name: "keywords",
-      content: "fruits flashcard, random fruit flashcard, recognize fruit, digital flashcard, speech therapy flashcards, language development, flashcards age 1 to 4"
+      content: "Pictures of fruits, fruit flashcard, Name and images of fruits, language development, speech therapy"
     });
     this.meta.updateTag({property: "og:url", content: "https://omishaan.com/fruit-flashcard"});
     this.meta.updateTag({property: "og:image", content: "https://omishaan.com/assets/img/fruitbanner.png"});
     this.meta.updateTag({
       property: "og:description",
-      content: "Play with fruit in sequence or random order. fruit flashcards for early speech development, speech improvement and speech therapy used by professionals and parents at home. " +
-      "Language development flashcards for kids. Digital fruit flashcards for kids age 1 to 4 years."
-    });
-    this.meta.updateTag({property: "og:title", content: "Digital fruit flashcards for kids age 1 to 4 years"});
+      content: "Pictures and name of fruits compiled in flashcard. Learn names of fruits by recognizing the images."});
+    this.meta.updateTag({property: "og:title", content: "20+ Pictures of fruits flashcards"});
   }
 
 }

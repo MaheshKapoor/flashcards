@@ -16,31 +16,26 @@ export class ColorComponent implements OnInit {
   }
 
   updateMetaTags() {
-    this.title.setTitle("10 Digital Colors flashcards for kids age 1 to 4 years");
+    this.title.setTitle("10+ Picture and Name of Colors flashcards");
     this.meta.updateTag({
       name: "description",
-      content: "Colors flashcards help to learn about different colors around us. " +
-      "Colors flashcards may help for early speech development, speech improvement " +
-      "and speech therapy used by professionals and parents at home. It's basically a " +
-      "Language development flashcard for kids. Digital Colors flashcards have been " +
-      "created specially for kids age 1 to 4 years."
-    });
+      content: "Pictorial representation of Colors with names. " +
+      "Colors flashcards help to learn about different Primary and secondary " +
+      "colors around us. " });
     this.meta.updateTag({
       name: "keywords",
-      content: "Colors flashcard, Random order Colors flashcard, recognize Colors, " +
-      "digital flashcard, speech therapy flashcards, language development, flashcards for age 1 to 4"
+      content: "Colors flashcard, Pictures and names of colors, Primary colors, secondary colors," +
+      " speech therapy flashcards, language development"
     });
     this.meta.updateTag({property: "og:url", content: "https://omishaan.com/colors-flashcard"});
     this.meta.updateTag({property: "og:image", content: "https://omishaan.com/assets/img/age3color.png"});
     this.meta.updateTag({
       property: "og:description",
-      content: "Colors flashcards help to learn about different colors around us. " +
-      "Colors flashcards may help for early speech development, speech improvement " +
-      "and speech therapy used by professionals and parents at home. It's basically a " +
-      "Language development flashcard for kids. Digital Colors flashcards have been " +
-      "created specially for kids age 1 to 4 years."
+      content: "Pictorial representation of Colors with names. " +
+      "Colors flashcards help to learn about different Primary and secondary " +
+      "colors around us. "
     });
-    this.meta.updateTag({property: "og:title", content: "10 Digital Colors flashcards for kids age 1 to 4 years"
+    this.meta.updateTag({property: "og:title", content: "10+ Picture and Name of Colors flashcards"
     });
   }
 
