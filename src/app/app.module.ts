@@ -55,6 +55,8 @@ import {MultiplicationComponent} from "./flashcard/mathematics/multiplication/mu
 import {AdditionComponent} from "./flashcard/mathematics/addition/addition.component";
 import {PeppaPigComponent} from "./flashcard/cartoon/peppapig/peppapig.component";
 import {MyFirstWordsComponent} from "./flashcard/myfirstwords/myfirstwords.component";
+import {WeatherComponent} from "./flashcard/weather/weather/weather.component";
+import {DisplayFlashCardomponent} from "./flashcard/displayFlashCard/displayFlashCard.component";
 
 @NgModule({
   declarations: [
@@ -102,7 +104,9 @@ import {MyFirstWordsComponent} from "./flashcard/myfirstwords/myfirstwords.compo
     MultiplicationComponent,
     AdditionComponent,
     PeppaPigComponent,
-    MyFirstWordsComponent
+    MyFirstWordsComponent,
+    WeatherComponent,
+    DisplayFlashCardomponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

@@ -1,0 +1,24 @@
+<div *ngIf="quizService.showSpinner" class="spiner">
+  <img src="../../assets/img/loading.gif" >
+</div>
+
+<div class="row">
+    <div class="card #cce0ff ">
+      <div align="center">
+        <div  *ngFor="let i of quizService.qns">
+          <div class="col s12 m4 l4">
+          <div *ngIf="i.imageName!=null">
+            <img class="questionImage flashcard-next" src="../../assets/img/{{i.imageName}}" alt="{{i.qn}}">
+            <div>
+              {{i.qn}}
+            </div>
+          </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+</div>
+
+
+

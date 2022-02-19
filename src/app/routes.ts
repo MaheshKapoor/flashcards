@@ -40,6 +40,7 @@ import {MultiplicationComponent} from "./flashcard/mathematics/multiplication/mu
 import {AdditionComponent} from "./flashcard/mathematics/addition/addition.component";
 import {PeppaPigComponent} from "./flashcard/cartoon/peppapig/peppapig.component";
 import {MyFirstWordsComponent} from "./flashcard/myfirstwords/myfirstwords.component";
+import {WeatherComponent} from "./flashcard/weather/weather/weather.component";
 
 
 export const appRoutes : Routes =[
@@ -75,7 +76,7 @@ export const appRoutes : Routes =[
 
 
     {path:'season-flashcard',component:Age1Component},
-    {path:'weather-flashcard',component:Age1Component},
+    {path:'weather-flashcard',component:WeatherComponent},
     {path:'summer-flashcard',component:Age1Component},
     {path:'winter-flashcard',component:Age1Component},
     {path:'spring-flashcard',component:Age1Component},
