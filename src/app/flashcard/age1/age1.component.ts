@@ -17,22 +17,26 @@ export class Age1Component implements OnInit {
   }
 
   updateMetaTags() {
-    this.title.setTitle("Age 18 months| Speech Therapy Flashcards for Speech Development at home");
+    this.title.setTitle("Age 1 | All you need to know about Speech Development");
     this.meta.updateTag({
       name: "description",
-      content: "Digital flashcards for early speech development, speech improvement and speech therapy used by professionals and parents at home. Language development flashcards for kids at age 18 months."
+      content: "Speech development process and milestones for age 1. Special video and pictorial flashcard for toddlers." +
+      " Keep yourself update to date for upcoming " +
+      "kids language development"
     });
     this.meta.updateTag({
       name: "keywords",
-      content: "Digital Flashcards,  alphabets flashcard, numbers flashcard, fruits flashcard, vegetables flashcard, weathers flashcard, shapes flashcard, colors flashcard, transportation flashcard, animals flashcard, gestures flashcard, clothes flashcard, food flashcard, family flashcard, birds flashcard, plants flashcard"
+      content: "video Flashcards,  pictorial flashcard, online flashcard, " +
+      "free flashcard, age 1 flashcard, flashcards for toddlers, Speech development, language development"
     });
-    this.meta.updateTag({property: "og:url", content: "https://omishaan.com/age3speechdevelopment"});
-    this.meta.updateTag({property: "og:image", content: "https://omishaan.com/assets/img/age2speechbanner.png"});
+    this.meta.updateTag({property: "og:url", content: "https://omishaan.com/age1-vocabulary-flashcards"});
+    this.meta.updateTag({property: "og:image", content: "https://omishaan.com/assets/img/age1speechbanner1.jpg"});
     this.meta.updateTag({
       property: "og:description",
-      content: "Digital flashcards for speech development, speech improvement and speech therapy used by professionals and parents at home. Digital flashcards for kids at age 1."
-    });
-    this.meta.updateTag({property: "og:title", content: "Age 18 months| Speech Therapy flashcards for Speech Development"});
+      content: "Speech development process and milestones for age 1. Special video and pictorial flashcard for toddlers." +
+      " Keep yourself update to date for upcoming " +
+      "kids language development"});
+    this.meta.updateTag({property: "og:title", content: "Age 1 | All you need to know about Speech Development"});
   }
 
 }
