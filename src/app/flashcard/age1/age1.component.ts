@@ -17,7 +17,7 @@ export class Age1Component implements OnInit {
   }
 
   updateMetaTags() {
-    this.title.setTitle("Age 1 | All you need to know about Speech Development");
+    this.title.setTitle("Age 1 | All you need to know about Speech Development & flashcardst");
     this.meta.updateTag({
       name: "description",
       content: "Speech development process and milestones for age 1. Special video and pictorial flashcard for toddlers." +
@@ -36,7 +36,7 @@ export class Age1Component implements OnInit {
       content: "Speech development process and milestones for age 1. Special video and pictorial flashcard for toddlers." +
       " Keep yourself update to date for upcoming " +
       "kids language development"});
-    this.meta.updateTag({property: "og:title", content: "Age 1 | All you need to know about Speech Development"});
+    this.meta.updateTag({property: "og:title", content: "Age 1 | All you need to know about Speech Development & flashcards"});
   }
 
 }

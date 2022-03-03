@@ -17,12 +17,14 @@ export class SpeechComponent implements OnInit {
   }
 
   updateMetaTags(){
-    this.title.setTitle("Speech and language development in toddlers and children");
-    this.meta.updateTag(  {name: "description", content: "Speech development, speech improvement and speech therapy for kids age 1, 2, 3, 4, 5. Digital flash cards to improve english vocabulary. Speech milestone for growing children and toddlers. "});
+    this.title.setTitle("Speech development in toddlers with flashcards");
+    this.meta.updateTag(  {name: "description", content: "Learn the ways to boost Speech " +
+    "development, improvement, therapy for kids age 1, 2, 3, 4, 5 with flashcards. "});
     this.meta.updateTag(  {name : "keywords", content: "Speech development, speech improvement, speech therapy, age 1, age 2, age 3, age 4, age 5, Digital Flashcards,  alphabets flashcard, numbers flashcard, fruits flashcard, vegetables flashcard, weathers flashcard, shapes flashcard, colors flashcard, transportation flashcard, animals flashcard, gestures flashcard, clothes flashcard, food flashcard, family flashcard, birds flashcard, plants flashcard"});
     this.meta.updateTag(  {property : "og:url", content: "https://omishaan.com/speechdevelopment"});
     this.meta.updateTag(  {property : "og:image", content: "https://omishaan.com/assets/img/speechdevelopmentbanner.jpg"});
-    this.meta.updateTag(  {property : "og:description", content: "Speech development, speech improvement and speech therapy for kids age 1, 2, 3, 4, 5. Digital flash cards to improve english vocabulary. Speech milestone for growing children and toddlers."});
+    this.meta.updateTag(  {property : "og:description", content: "Learn the ways to boost Speech " +
+    "development, improvement, therapy for kids age 1, 2, 3, 4, 5 with flashcards. "});
     this.meta.updateTag(  {property : "og:title", content: "Speech and language development in toddlers and children"});
   }
 
