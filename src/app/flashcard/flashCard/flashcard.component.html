@@ -35,7 +35,22 @@
         <!-- -->
         <div class="row" [hidden] ="!quizService.isSubmitDisable">
           <div class="input-field col s12">
-            <button class="btn-large btn-submit-flashcard-next" type="button" (click)="SkipQuestion()">Next</button>
+
+            <div class="col s4">
+            <button class="btn-small button-control-flashcard" [hidden] ="isFirstFlashcard"
+                    type="button" (click)="lastFlashcard()">
+              <i class="Medium material-icons">navigate_before</i></button>
+          </div>
+            <div class="col s4">
+            <button class="btn-small  button-control-flashcard"
+                    type="button" (click)="speak(quizService.qns[this.quizService.qnProgress].qn)">
+              <i class="Medium material-icons">record_voice_over</i></button>
+            </div>
+            <div class="col s4">
+            <button class="btn-small  button-control-flashcard"
+                    type="button" (click)="nextFlashcard()">
+              <i class="Medium material-icons">navigate_next</i></button>
+            </div>
           </div>
         </div>
         <div class="row" [hidden] ="quizService.isSubmitDisable">

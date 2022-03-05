@@ -1,7 +1,10 @@
 <div>
-<span>Time Elapsed: {{quizService.displayTimeElapsed()}}</span>
+  <div class="progress-text">
+    <span class="pull-left">Progress: {{quizService.qnProgress+1}}/{{quizService.numberOfQuestions}}</span>
+<!--<span class="pull-right">Time Elapsed: {{quizService.displayTimeElapsed()}}</span>-->
+  </div>
 <div class="progress">
   <div class="determinate" [style.width.%]="(quizService.qnProgress+1)*progressFactor"></div>
 </div>
-<span>Progress: {{quizService.qnProgress+1}}/{{quizService.numberOfQuestions}}</span>
+
 </div>
