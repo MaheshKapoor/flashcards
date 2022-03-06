@@ -88,7 +88,7 @@ export class FlashCardComponent implements OnInit {
 
   ngOnInit() {
     this.voices = speechSynthesis.getVoices();
-    this.selectedVoice = ( this.voices[ 5 ] || null );
+    this.selectedVoice = ( this.voices[ 4 ] || null );
     this.updateSayCommand();
 
     // The voices aren't immediately available (or so it seems). As such, if no
@@ -101,7 +101,7 @@ export class FlashCardComponent implements OnInit {
         () => {
 
           this.voices = speechSynthesis.getVoices();
-          this.selectedVoice = ( this.voices[ 5 ] || null );
+          this.selectedVoice = ( this.voices[ 4 ] || null );
           this.updateSayCommand();
 
         }

@@ -1,91 +1,80 @@
 {
   "data":{
     "extraDetails":{
-      "quizTitle":"Age 3 home appliances flashcard",
-      "previousSet":"DKTNSW00E181127SP1",
+      "quizTitle":"Home Appliances flashcard",
+      "previousSet":"",
       "nextSet":null,
       "numberOfQuestion":"16",
       "keywords":"",
       "description":"",
       "url":"",
       "imageUrl":"",
-      "referralLink":[
-        {
-          "title":"Simple Arithematic questions on Multiplication",
-          "url":"https://www.service.nsw.gov.au/transaction/driver-knowledge-test",
-          "description":"Are you ready for DKT test? Try simulation test before you go for final test."
-        },
-        {
-          "title":"Simple Arithematic questions on Substraction",
-          "url":"https://www.rms.nsw.gov.au/roads/licence/driver/tests/driver-knowledge-test.html",
-          "description":"Government website for all informationunder one umbrella."
-        }
-      ]
+      "referralLink":[]
     },
     "questions":[
       {
         "imageName":"/flashCard/house/appliances/airconditioner.png",
-        "qn":"Guess the home appliance?"
+        "qn":"Air Conditioner"
       },
       {
         "imageName":"/flashCard/house/appliances/blender.png",
-        "qn":"Guess the home appliance?"
+        "qn":"Blender"
       },
       {
         "imageName":"/flashCard/house/appliances/dishwasher.png",
-        "qn":"Guess the home appliance?"
+        "qn":"Dishwasher"
       },
       {
         "imageName":"/flashCard/house/appliances/fan.png",
-        "qn":"Guess the home appliance?"
+        "qn":"Fan"
       },
       {
         "imageName":"/flashCard/house/appliances/foodprocessor.png",
-        "qn":"Guess the home appliance?"
+        "qn":"Food Processor"
       },
       {
         "imageName":"/flashCard/house/appliances/fridge.png",
-        "qn":"Guess the home appliance?"
+        "qn":"Fridge"
       },
       {
         "imageName":"/flashCard/house/appliances/gasstove.png",
-        "qn":"Guess the home appliance?"
+        "qn":"Gasstove"
       },
       {
         "imageName":"/flashCard/house/appliances/hairdryer.png",
-        "qn":"Guess the home appliance?"
+        "qn":"Hairdryer"
       },
       {
         "imageName":"/flashCard/house/appliances/iron.png",
-        "qn":"Guess the home appliance?"
+        "qn":"Iron"
       },
       {
         "imageName":"/flashCard/house/appliances/juicer.png",
-        "qn":"Guess the home appliance?"
+        "qn":"Juicer"
       },
       {
         "imageName":"/flashCard/house/appliances/microwave.png",
-        "qn":"Guess the home appliance?"
+        "qn":"Microwave"
       },
       {
         "imageName":"/flashCard/house/appliances/mixer.png",
-        "qn":"Guess the home appliance?"
+        "qn":"Mixer"
       },
       {
         "imageName":"/flashCard/house/appliances/sandwichmaker.png",
-        "qn":"Guess the home appliance?"
+        "qn":"Sandwich Maker"
       },
       {
         "imageName":"/flashCard/house/appliances/toaster.png",
-        "qn":"Guess the home appliance?"
+        "qn":"Toaster"
       },
       {
         "imageName":"/flashCard/house/appliances/vacuumcleaner.png",
-        "qn":"Guess the home appliance?"
+        "qn":"Vacuum Cleaner"
       },
       {
         "imageName":"/flashCard/house/appliances/washingmachine.png",
-        "qn":"Guess the home appliance?"
+        "qn":"Washing Machine"
       }
 
     ]

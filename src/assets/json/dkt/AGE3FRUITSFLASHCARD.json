@@ -1,111 +1,100 @@
 {
   "data":{
     "extraDetails":{
-      "quizTitle":"Age 3 Fruits flashcard",
-      "previousSet":"DKTNSW00E181127SP1",
+      "quizTitle":"Fruit flashcard",
+      "previousSet":"",
       "nextSet":null,
       "numberOfQuestion":"21",
       "keywords":"",
       "description":"",
       "url":"",
       "imageUrl":"",
-      "referralLink":[
-        {
-          "title":"Simple Arithematic questions on Multiplication",
-          "url":"https://www.service.nsw.gov.au/transaction/driver-knowledge-test",
-          "description":"Are you ready for DKT test? Try simulation test before you go for final test."
-        },
-        {
-          "title":"Simple Arithematic questions on Substraction",
-          "url":"https://www.rms.nsw.gov.au/roads/licence/driver/tests/driver-knowledge-test.html",
-          "description":"Government website for all informationunder one umbrella."
-        }
-      ]
+      "referralLink":[]
     },
     "questions":[
       {
         "imageName":"/flashCard/fruits/apple.png",
-        "qn":"Guess the fruit?"
+        "qn":"Apple"
       },
       {
         "imageName":"/flashCard/fruits/apricot.png",
-        "qn":"Guess the fruit?"
+        "qn":"Apricot"
       },
       {
         "imageName":"/flashCard/fruits/avocado.png",
-        "qn":"Guess the fruit?"
+        "qn":"Avocado"
       },
       {
         "imageName":"/flashCard/fruits/banana.png",
-        "qn":"Guess the fruit?"
+        "qn":"Banana"
       },
       {
         "imageName":"/flashCard/fruits/cherry.png",
-        "qn":"Guess the fruit?"
+        "qn":"Cherry"
       },
       {
         "imageName":"/flashCard/fruits/coconut.png",
-        "qn":"Guess the fruit?"
+        "qn":"Coconut"
       },
       {
         "imageName":"/flashCard/fruits/custardapple.png",
-        "qn":"Guess the fruit?"
+        "qn":"Custard Apple"
       },
       {
         "imageName":"/flashCard/fruits/grapes.png",
-        "qn":"Guess the fruit?"
+        "qn":"Grapes"
       },
       {
         "imageName":"/flashCard/fruits/guava.png",
-        "qn":"Guess the fruit?"
+        "qn":"Guava"
       },
       {
         "imageName":"/flashCard/fruits/kiwi.png",
-        "qn":"Guess the fruit?"
+        "qn":"Kiwi"
       },
       {
         "imageName":"/flashCard/fruits/lime.png",
-        "qn":"Guess the fruit?"
+        "qn":"Lime"
       },
       {
         "imageName":"/flashCard/fruits/mango.png",
-        "qn":"Guess the fruit?"
+        "qn":"Mango"
       },
       {
         "imageName":"/flashCard/fruits/orange.png",
-        "qn":"Guess the fruit?"
+        "qn":"Orange"
       },
       {
         "imageName":"/flashCard/fruits/papaya.png",
-        "qn":"Guess the fruit?"
+        "qn":"Papaya"
       },
       {
         "imageName":"/flashCard/fruits/peach.png",
-        "qn":"Guess the fruit?"
+        "qn":"Peach"
       },
       {
         "imageName":"/flashCard/fruits/pear.png",
-        "qn":"Guess the fruit?"
+        "qn":"Pear"
       },
       {
         "imageName":"/flashCard/fruits/pineapple.png",
-        "qn":"Guess the fruit?"
+        "qn":"Pine Apple"
       },
       {
         "imageName":"/flashCard/fruits/plum.png",
-        "qn":"Guess the fruit?"
+        "qn":"Plum?"
       },
       {
         "imageName":"/flashCard/fruits/pomegranate.png",
-        "qn":"Guess the fruit?"
+        "qn":"Pomegranate"
       },
       {
         "imageName":"/flashCard/fruits/strawberry.png",
-        "qn":"Guess the fruit?"
+        "qn":"Strawberry"
       },
       {
         "imageName":"/flashCard/fruits/watermelon.png",
-        "qn":"Guess the fruit?"
+        "qn":"Watermelon"
       }
 
     ]

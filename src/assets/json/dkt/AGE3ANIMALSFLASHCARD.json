@@ -1,123 +1,112 @@
 {
   "data":{
     "extraDetails":{
-      "quizTitle":"Age 2 Animal flashcards",
-      "previousSet":"DKTNSW00E181127SP1",
+      "quizTitle":"Animal flashcards",
+      "previousSet":"",
       "nextSet":null,
       "numberOfQuestion":"24",
       "keywords":"",
       "description":"",
       "url":"",
       "imageUrl":"",
-      "referralLink":[
-        {
-          "title":"Simple Arithematic questions on Multiplication",
-          "url":"https://www.service.nsw.gov.au/transaction/driver-knowledge-test",
-          "description":"Are you ready for DKT test? Try simulation test before you go for final test."
-        },
-        {
-          "title":"Simple Arithematic questions on Substraction",
-          "url":"https://www.rms.nsw.gov.au/roads/licence/driver/tests/driver-knowledge-test.html",
-          "description":"Government website for all informationunder one umbrella."
-        }
-      ]
+      "referralLink":[]
     },
     "questions":[
       {
         "imageName":"/flashCard/animals/bear.png",
-        "qn":"Guess the animal?"
+        "qn":"Bear"
       },
       {
         "imageName":"/flashCard/animals/camel.png",
-        "qn":"Guess the animal?"
+        "qn":"Camel"
       },
       {
         "imageName":"/flashCard/animals/cat.png",
-        "qn":"Guess the animal?"
+        "qn":"Cat"
       },
       {
         "imageName":"/flashCard/animals/chicken.png",
-        "qn":"Guess the animal?"
+        "qn":"Chicken"
       },
       {
         "imageName":"/flashCard/animals/cow.png",
-        "qn":"Guess the animal?"
+        "qn":"Cow"
       },
       {
         "imageName":"/flashCard/animals/deer.png",
-        "qn":"Guess the animal?"
+        "qn":"Deer"
       },
       {
         "imageName":"/flashCard/animals/duck.png",
-        "qn":"Guess the animal?"
+        "qn":"Duck"
       },
       {
         "imageName":"/flashCard/animals/elephant.png",
-        "qn":"Guess the animal?"
+        "qn":"Elephant"
       },
       {
         "imageName":"/flashCard/animals/fox.png",
-        "qn":"Guess the animal?"
+        "qn":"Fox"
       },
       {
         "imageName":"/flashCard/animals/giraffe.png",
-        "qn":"Guess the animal?"
+        "qn":"Giraffe"
       },
       {
         "imageName":"/flashCard/animals/goat.png",
-        "qn":"Guess the animal?"
+        "qn":"Goat"
       },
       {
         "imageName":"/flashCard/animals/gorilla.png",
-        "qn":"Guess the animal?"
+        "qn":"Gorilla"
       },
       {
         "imageName":"/flashCard/animals/hippo.png",
-        "qn":"Guess the animal?"
+        "qn":"Hippo"
       },
       {
         "imageName":"/flashCard/animals/horse.png",
-        "qn":"Guess the animal?"
+        "qn":"Horse"
       },
       {
         "imageName":"/flashCard/animals/leopard.png",
-        "qn":"Guess the animal?"
+        "qn":"Leopard"
       },
       {
         "imageName":"/flashCard/animals/lion.png",
-        "qn":"Guess the animal?"
+        "qn":"Lion"
       },
       {
         "imageName":"/flashCard/animals/monkey.png",
-        "qn":"Guess the animal?"
+        "qn":"Monkey"
       },
       {
         "imageName":"/flashCard/animals/pig.png",
-        "qn":"Guess the animal?"
+        "qn":"Pig"
       },
       {
         "imageName":"/flashCard/animals/rabbit.png",
-        "qn":"Guess the animal?"
+        "qn":"Rabbit"
       },
       {
         "imageName":"/flashCard/animals/sheep.png",
-        "qn":"Guess the animal?"
+        "qn":"Sheep"
       },
       {
         "imageName":"/flashCard/animals/squirrel.png",
-        "qn":"Guess the animal?"
+        "qn":"Squirrel"
       },
       {
         "imageName":"/flashCard/animals/tiger.png",
-        "qn":"Guess the animal?"
+        "qn":"Tiger"
       },
       {
         "imageName":"/flashCard/animals/wolf.png",
-        "qn":"Guess the animal?"
+        "qn":"Wolf"
       },
       {
         "imageName":"/flashCard/animals/zebra.png",
-        "qn":"Guess the animal?"
+        "qn":"zebra"
       }
 
     ]

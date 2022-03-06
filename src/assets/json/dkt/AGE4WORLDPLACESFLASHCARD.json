@@ -2,122 +2,111 @@
   "data":{
     "extraDetails":{
       "quizTitle":"World places flashcard",
-      "previousSet":"DKTNSW00E181127SP1",
+      "previousSet":"",
       "nextSet":null,
       "numberOfQuestion":"24",
       "keywords":"",
       "description":"",
       "url":"",
       "imageUrl":"",
-      "referralLink":[
-        {
-          "title":"Simple Arithematic questions on Multiplication",
-          "url":"https://www.service.nsw.gov.au/transaction/driver-knowledge-test",
-          "description":"Are you ready for DKT test? Try simulation test before you go for final test."
-        },
-        {
-          "title":"Simple Arithematic questions on Substraction",
-          "url":"https://www.rms.nsw.gov.au/roads/licence/driver/tests/driver-knowledge-test.html",
-          "description":"Government website for all informationunder one umbrella."
-        }
-      ]
+      "referralLink":[]
     },
     "questions":[
       {
         "imageName":"/flashCard/worldplaces/arcdetriompfbarcelona.png",
-        "qn":"Guess the place?"
+        "qn":"Arc de Triompf Barcelona"
       },
       {
         "imageName":"/flashCard/worldplaces/banawericeterraces.png",
-        "qn":"Guess the place?"
+        "qn":"Banawe Rice Terraces"
       },
       {
         "imageName":"/flashCard/worldplaces/beyonkhmertemple.png",
-        "qn":"Guess the place?"
+        "qn":"Beyon Khmer Temple"
       },
       {
         "imageName":"/flashCard/worldplaces/chiangkaishekmemorialhall.png",
-        "qn":"Guess the place?"
+        "qn":"Chiang Kai Shek Memorial Hall"
       },
       {
         "imageName":"/flashCard/worldplaces/easterisland.png",
-        "qn":"Guess the place?"
+        "qn":"Easter Island"
       },
       {
         "imageName":"/flashCard/worldplaces/eiffletower.png",
-        "qn":"Guess the place?"
+        "qn":"Eiffle Tower"
       },
       {
         "imageName":"/flashCard/worldplaces/golentemple.png",
-        "qn":"Guess the place?"
+        "qn":"Golden Temple"
       },
       {
         "imageName":"/flashCard/worldplaces/greatpyramidofgiza.png",
-        "qn":"Guess the place?"
+        "qn":"Great Pyramid of Giza"
       },
       {
         "imageName":"/flashCard/worldplaces/greatwallofchina.png",
-        "qn":"Guess the place?"
+        "qn":"Great wall of China"
       },
       {
         "imageName":"/flashCard/worldplaces/gyeongbokgungpalace.png",
-        "qn":"Guess the place?"
+        "qn":"Gyeongbokgung Palace"
       },
       {
         "imageName":"/flashCard/worldplaces/jameasrhassanilbolkaihmasque.png",
-        "qn":"Guess the place?"
+        "qn":"Jame'asr Hassanil Bolkaih Masque"
       },
       {
         "imageName":"/flashCard/worldplaces/laplandlgloolsland.png",
-        "qn":"Guess the place?"
+        "qn":"Lapland Lglools Land"
       },
       {
         "imageName":"/flashCard/worldplaces/leaningtowerofpisa.png",
-        "qn":"Guess the place?"
+        "qn":"Leaning tower of Pisa"
       },
       {
         "imageName":"/flashCard/worldplaces/machupicchu.png",
-        "qn":"Guess the place?"
+        "qn":"Machu Picchu"
       },
       {
         "imageName":"/flashCard/worldplaces/merlion.png",
-        "qn":"Guess the place?"
+        "qn":"Merlion"
       },
       {
         "imageName":"/flashCard/worldplaces/mtfuji.png",
-        "qn":"Guess the place?"
+        "qn":"Mt. Fuji"
       },
       {
         "imageName":"/flashCard/worldplaces/operahouse.png",
-        "qn":"Guess the place?"
+        "qn":"Opera house"
       },
       {
         "imageName":"/flashCard/worldplaces/puraulundanubratan.png",
-        "qn":"Guess the place?"
+        "qn":"Pura Ulun Danu Bratan"
       },
       {
         "imageName":"/flashCard/worldplaces/putramosque.png",
-        "qn":"Guess the place?"
+        "qn":"Putra Mosque"
       },
       {
         "imageName":"/flashCard/worldplaces/redsquare.png",
-        "qn":"Guess the place?"
+        "qn":"Red Square"
       },
       {
         "imageName":"/flashCard/worldplaces/statueofliberty.png",
-        "qn":"Guess the place?"
+        "qn":"Statue of Liberty"
       },
       {
         "imageName":"/flashCard/worldplaces/stonehenge.png",
-        "qn":"Guess the place?"
+        "qn":"Stone Henge"
       },
       {
         "imageName":"/flashCard/worldplaces/tajmahal.png",
-        "qn":"Guess the place?"
+        "qn":"Taj Mahal"
       },
       {
         "imageName":"/flashCard/worldplaces/zaanseschanswindmill.png",
-        "qn":"Guess the place?"
+        "qn":"Zaanse Schans Windmill"
       }
 
     ]
