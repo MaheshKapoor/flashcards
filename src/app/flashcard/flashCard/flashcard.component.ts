@@ -39,6 +39,8 @@ export class FlashCardComponent implements OnInit {
   description : string;
   url         : string;
   imageUrl    : string;
+  autoPlayInterval : number;
+  isAutoPlay  : boolean = false;
   isFirstFlashcard : boolean=true;
   public sayCommand: string;
   public recommendedVoices: RecommendedVoices;
@@ -129,6 +131,8 @@ export class FlashCardComponent implements OnInit {
           this.startTimer();
         }
       );
+
+      this.autoPlay();
   }
 
   shuffleArray(array) {
@@ -176,6 +180,23 @@ export class FlashCardComponent implements OnInit {
     }
   }
 
+  autoPlay(){
+    if(!this.isAutoPlay){
+        console.log(this.isAutoPlay);
+        this.autoPlayInterval = setInterval(() => {
+          this.nextFlashcard();
+          console.log(this.autoPlayInterval);
+          if ((this.quizService.qnProgress == this.quizService.numberOfQuestions - 1)) {
+            clearInterval(this.autoPlayInterval);
+          }
+        }, 5000);
+      this.isAutoPlay = !this.isAutoPlay;
+      }else{
+      clearInterval(this.autoPlayInterval);
+      this.isAutoPlay = !this.isAutoPlay;
+    }
+  }
+
   nextFlashcard(){
     localStorage.setItem('qns', JSON.stringify(this.quizService.qns));
     this.quizService.qnProgress++;
@@ -201,7 +222,7 @@ export class FlashCardComponent implements OnInit {
     if(this.quizService.qnProgress == this.quizService.numberOfQuestions-1){
       this.quizService.isSubmitDisable=false;
     }
-    if(this.quizService.qnProgress>1){
+    if(this.quizService.qnProgress>0){
       this.isFirstFlashcard = false;
     }
     localStorage.setItem('qnProgress', this.quizService.qnProgress.toString());
