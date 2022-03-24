@@ -39,7 +39,7 @@ export class FlashCardComponent implements OnInit {
   description : string;
   url         : string;
   imageUrl    : string;
-  autoPlayInterval : number;
+  autoPlayInterval : any;
   isAutoPlay  : boolean = false;
   isFirstFlashcard : boolean=true;
   public sayCommand: string;

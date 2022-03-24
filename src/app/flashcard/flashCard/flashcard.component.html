@@ -26,6 +26,11 @@
             <img class="questionImage flashcard-next" src="../../assets/img/{{quizService.qns[quizService.qnProgress].imageName}}" align="center" (click)="SkipQuestion()">
           </div>
         </div>
+        <div *ngIf="quizService.qns[quizService.qnProgress].imageName===null">
+          <div class="col s12 m12 l12" style="margin: 0 auto" *ngIf="quizService.qns[quizService.qnProgress].imageName===null">
+            <h3 align="center" (click)="SkipQuestion()">{{quizService.qns[quizService.qnProgress].qn}}</h3>
+          </div>
+        </div>
 
 
       </div>
