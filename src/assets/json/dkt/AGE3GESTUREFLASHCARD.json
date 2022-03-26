@@ -25,116 +25,112 @@
     "questions":[
       {
         "imageName":"/flashCard/gesture/angry.png",
-        "qn":"Guess the gesture?"
+        "qn":"I am angry"
       },
       {
         "imageName":"/flashCard/gesture/callme.png",
-        "qn":"Guess the gesture?"
+        "qn":"Call me"
       },
       {
         "imageName":"/flashCard/gesture/dontknow.png",
-        "qn":"Guess the gesture?"
+        "qn":"Don't know"
       },
       {
         "imageName":"/flashCard/gesture/followme.png",
-        "qn":"Guess the gesture?"
+        "qn":"Follow me"
       },
       {
         "imageName":"/flashCard/gesture/goodluck.png",
-        "qn":"Guess the gesture?"
+        "qn":"Good luck"
       },
       {
         "imageName":"/flashCard/gesture/greatjob.png",
-        "qn":"Guess the gesture?"
+        "qn":"Great job"
       },
       {
         "imageName":"/flashCard/gesture/hello.png",
-        "qn":"Guess the gesture?"
+        "qn":"Hello"
       },
       {
         "imageName":"/flashCard/gesture/highfive.png",
-        "qn":"Guess the gesture?"
+        "qn":"High five"
       },
       {
         "imageName":"/flashCard/gesture/hmmm.png",
-        "qn":"Guess the gesture?"
+        "qn":"Hmmm"
       },
       {
         "imageName":"/flashCard/gesture/hooray.png",
-        "qn":"Guess the gesture?"
+        "qn":"Hoo ray!"
       },
       {
         "imageName":"/flashCard/gesture/ihaveanidea.png",
-        "qn":"Guess the gesture?"
+        "qn":"I have an idea"
       },
       {
         "imageName":"/flashCard/gesture/iloveyou.png",
-        "qn":"Guess the gesture?"
+        "qn":"I love you"
       },
       {
         "imageName":"/flashCard/gesture/imbored.png",
-        "qn":"Guess the gesture?"
+        "qn":"I am bored"
       },
       {
         "imageName":"/flashCard/gesture/imscared.png",
-        "qn":"Guess the gesture?"
+        "qn":"I am scared"
       },
       {
         "imageName":"/flashCard/gesture/look.png",
-        "qn":"Guess the gesture?"
+        "qn":"Look"
       },
       {
         "imageName":"/flashCard/gesture/loud.png",
-        "qn":"Guess the gesture?"
+        "qn":"Loud"
       },
       {
         "imageName":"/flashCard/gesture/me.png",
-        "qn":"Guess the gesture?"
+        "qn":"Me?"
       },
       {
         "imageName":"/flashCard/gesture/nicemeeting.png",
-        "qn":"Guess the gesture?"
+        "qn":"Nice meeting you"
       },
       {
         "imageName":"/flashCard/gesture/no.png",
-        "qn":"Guess the gesture?"
+        "qn":"No"
       },
       {
         "imageName":"/flashCard/gesture/ohno.png",
-        "qn":"Guess the gesture?"
+        "qn":"Oh no"
       },
       {
         "imageName":"/flashCard/gesture/perfect.png",
-        "qn":"Guess the gesture?"
+        "qn":"Perfect"
       },
       {
         "imageName":"/flashCard/gesture/please.png",
-        "qn":"Guess the gesture?"
+        "qn":"Please"
       },
       {
         "imageName":"/flashCard/gesture/shhh.png",
-        "qn":"Guess the gesture?"
+        "qn":"Shhh"
       },
       {
         "imageName":"/flashCard/gesture/stayaway.png",
-        "qn":"Guess the gesture?"
+        "qn":"Stay away"
       },
       {
         "imageName":"/flashCard/gesture/stop.png",
-        "qn":"Guess the gesture?"
+        "qn":"Stop"
       },
       {
         "imageName":"/flashCard/gesture/welldone.png",
-        "qn":"Guess the gesture?"
+        "qn":"Well done"
       },
       {
         "imageName":"/flashCard/gesture/yes.png",
-        "qn":"Guess the gesture?"
+        "qn":"Yes"
       }
-
-
-
-
 
     ]
   }

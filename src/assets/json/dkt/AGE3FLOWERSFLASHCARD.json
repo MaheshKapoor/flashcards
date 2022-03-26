@@ -25,63 +25,63 @@
     "questions":[
       {
         "imageName":"/flashCard/flowers/daffodil.png",
-        "qn":"Guess the flower?"
+        "qn":"Daffodil"
       },
       {
         "imageName":"/flashCard/flowers/dahlia.png",
-        "qn":"Guess the flower?"
+        "qn":"Dahlia"
       },
       {
         "imageName":"/flashCard/flowers/daisy.png",
-        "qn":"Guess the flower?"
+        "qn":"Daisy"
       },
       {
         "imageName":"/flashCard/flowers/iris.png",
-        "qn":"Guess the flower?"
+        "qn":"Iris"
       },
       {
         "imageName":"/flashCard/flowers/lilac.png",
-        "qn":"Guess the flower?"
+        "qn":"Lilac"
       },
       {
         "imageName":"/flashCard/flowers/lily.png",
-        "qn":"Guess the flower?"
+        "qn":"Lily"
       },
       {
         "imageName":"/flashCard/flowers/lotus.png",
-        "qn":"Guess the flower?"
+        "qn":"Lotus"
       },
       {
         "imageName":"/flashCard/flowers/orchid.png",
-        "qn":"Guess the flower?"
+        "qn":"Orchid"
       },
       {
         "imageName":"/flashCard/flowers/pansy.png",
-        "qn":"Guess the flower?"
+        "qn":"Pansy"
       },
       {
         "imageName":"/flashCard/flowers/poppy.png",
-        "qn":"Guess the flower?"
+        "qn":"Poppy"
       },
       {
         "imageName":"/flashCard/flowers/rose.png",
-        "qn":"Guess the flower?"
+        "qn":"Rose"
       },
       {
         "imageName":"/flashCard/flowers/snowdrop.png",
-        "qn":"Guess the flower?"
+        "qn":"Snowdrop"
       },
       {
         "imageName":"/flashCard/flowers/sunflower.png",
-        "qn":"Guess the flower?"
+        "qn":"Sunflower"
       },
       {
         "imageName":"/flashCard/flowers/tulip.png",
-        "qn":"Guess the flower?"
+        "qn":"Tulip"
       },
       {
         "imageName":"/flashCard/flowers/waterlilly.png",
-        "qn":"Guess the flower?"
+        "qn":"Water lilly"
       }
 
     ]

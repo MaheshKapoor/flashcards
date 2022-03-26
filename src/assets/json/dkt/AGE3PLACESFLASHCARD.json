@@ -25,111 +25,111 @@
     "questions":[
       {
         "imageName":"/flashCard/places/airport.png",
-        "qn":"Guess the place?"
+        "qn":"Airport"
       },
       {
         "imageName":"/flashCard/places/amusementpark.png",
-        "qn":"Guess the place?"
+        "qn":"Amusement Park"
       },
       {
         "imageName":"/flashCard/places/bakery.png",
-        "qn":"Guess the place?"
+        "qn":"Bakery"
       },
       {
         "imageName":"/flashCard/places/bank.png",
-        "qn":"Guess the place?"
+        "qn":"Bank"
       },
       {
         "imageName":"/flashCard/places/bookstore.png",
-        "qn":"Guess the place?"
+        "qn":"Bookstore"
       },
       {
         "imageName":"/flashCard/places/busstop.png",
-        "qn":"Guess the place?"
+        "qn":"Bus Stop"
       },
       {
         "imageName":"/flashCard/places/cafe.png",
-        "qn":"Guess the place?"
+        "qn":"Cafe"
       },
       {
         "imageName":"/flashCard/places/church.png",
-        "qn":"Guess the place?"
+        "qn":"Church"
       },
       {
         "imageName":"/flashCard/places/cinema.png",
-        "qn":"Guess the place?"
+        "qn":"Cinema"
       },
       {
         "imageName":"/flashCard/places/clothingstore.png",
-        "qn":"Guess the place?"
+        "qn":"Clothing Store"
       },
       {
         "imageName":"/flashCard/places/factory.png",
-        "qn":"Guess the place?"
+        "qn":"Factory"
       },
       {
         "imageName":"/flashCard/places/farm.png",
-        "qn":"Guess the place?"
+        "qn":"Farm"
       },
       {
         "imageName":"/flashCard/places/firestation.png",
-        "qn":"Guess the place?"
+        "qn":"Fire Station"
       },
       {
         "imageName":"/flashCard/places/gasstation.png",
-        "qn":"Guess the place?"
+        "qn":"Gas Station"
       },
       {
         "imageName":"/flashCard/places/hospital.png",
-        "qn":"Guess the place?"
+        "qn":"Hospital"
       },
       {
         "imageName":"/flashCard/places/hotel.png",
-        "qn":"Guess the place?"
+        "qn":"Hotel"
       },
       {
         "imageName":"/flashCard/places/library.png",
-        "qn":"Guess the place?"
+        "qn":"Library"
       },
       {
         "imageName":"/flashCard/places/museum.png",
-        "qn":"Guess the place?"
+        "qn":"Museum"
       },
       {
         "imageName":"/flashCard/places/park.png",
-        "qn":"Guess the place?"
+        "qn":"Park"
       },
       {
         "imageName":"/flashCard/places/policestation.png",
-        "qn":"Guess the place?"
+        "qn":"Police station"
       },
       {
         "imageName":"/flashCard/places/restaurant.png",
-        "qn":"Guess the place?"
+        "qn":"Restaurant"
       },
       {
         "imageName":"/flashCard/places/school.png",
-        "qn":"Guess the place?"
+        "qn":"School"
       },
       {
         "imageName":"/flashCard/places/supermarket.png",
-        "qn":"Guess the place?"
+        "qn":"Supermarket"
       },
       {
         "imageName":"/flashCard/places/swimmingpool.png",
-        "qn":"Guess the place?"
+        "qn":"Swimming Pool"
       },
       {
         "imageName":"/flashCard/places/theater.png",
-        "qn":"Guess the place?"
+        "qn":"Theater"
       },
       {
         "imageName":"/flashCard/places/trainstation.png",
-        "qn":"Guess the place?"
+        "qn":"Train station"
       },
       {
         "imageName":"/flashCard/places/zoo.png",
-        "qn":"Guess the place?"
+        "qn":"Zoo"
       }
 
     ]

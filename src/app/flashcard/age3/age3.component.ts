@@ -11,18 +11,23 @@ export class Age3Component implements OnInit {
   constructor(public meta: Meta, public title: Title) { }
 
   ngOnInit() {
-    //document.getElementById("seo-main-text").style.display = "none";
     this.updateMetaTags();
   }
 
   updateMetaTags(){
-    this.title.setTitle("Age 3| Speech Therapy Flashcards for Speech Development at home");
-    this.meta.updateTag(  {name: "description", content: "Digital flashcards for speech development, speech improvement and speech therapy used by professionals and parents at home. Digital flashcards for kids at age 3."});
-    this.meta.updateTag(  {name : "keywords", content: "Digital Flashcards,  alphabets flashcard, numbers flashcard, fruits flashcard, vegetables flashcard, weathers flashcard, shapes flashcard, colors flashcard, transportation flashcard, animals flashcard, gestures flashcard, clothes flashcard, food flashcard, family flashcard, birds flashcard, plants flashcard"});
+    this.title.setTitle("Age 3 | All you need to know about Speech Development & flashcards");
+    this.meta.updateTag(  {name: "description", content: "Boost speech development process in your toddler " +
+    "with pictorial flashcards. " +
+    "Best flashcards for age 2 and 3. It covers variety of words which improves speech development "});
+    this.meta.updateTag(  {name : "keywords", content: "Digital Flashcards,  alphabets flashcard, numbers " +
+    "flashcard, fruits flashcard, vegetables flashcard, weathers flashcard, shapes flashcard, colors flashcard, " +
+    "transportation flashcard, animals flashcard, gestures flashcard, clothes flashcard, food flashcard, family flashcard, " +
+    "birds flashcard, plants flashcard"});
     this.meta.updateTag(  {property : "og:url", content: "https://omishaan.com/age3speechdevelopment"});
     this.meta.updateTag(  {property : "og:image", content: "https://omishaan.com/assets/img/age3speechbanner.png"});
-    this.meta.updateTag(  {property : "og:description", content: "Digital flashcards for speech development, speech improvement and speech therapy used by professionals and parents at home. Digital flashcards for kids at age 3."});
-    this.meta.updateTag(  {property : "og:title", content: "Age 3| Speech Therapy flashcards for Speech Development"});
+    this.meta.updateTag(  {property : "og:description", content: "Boost speech development process in your toddler with pictorial flashcards. " +
+    "Best flashcards for age 2 and 3. It covers variety of words which improves speech development "});
+    this.meta.updateTag(  {property : "og:title", content: "Age 3 | All you need to know about Speech Development & flashcards"});
   }
 
 }

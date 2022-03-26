@@ -25,63 +25,63 @@
     "questions":[
       {
         "imageName":"/flashCard/clothes/belt.png",
-        "qn":"Guess the clothe?"
+        "qn":"Belt"
       },
       {
         "imageName":"/flashCard/clothes/boots.png",
-        "qn":"Guess the clothe?"
+        "qn":"Boots"
       },
       {
         "imageName":"/flashCard/clothes/cap.png",
-        "qn":"Guess the clothe?"
+        "qn":"Cap"
       },
       {
         "imageName":"/flashCard/clothes/dress.png",
-        "qn":"Guess the clothe?"
+        "qn":"Dress"
       },
       {
         "imageName":"/flashCard/clothes/hat.png",
-        "qn":"Guess the clothe?"
+        "qn":"Hat"
       },
       {
         "imageName":"/flashCard/clothes/jeans.png",
-        "qn":"Guess the clothe?"
+        "qn":"Jeans"
       },
       {
         "imageName":"/flashCard/clothes/scarf.png",
-        "qn":"Guess the clothe?"
+        "qn":"Scarf"
       },
       {
         "imageName":"/flashCard/clothes/shirt.png",
-        "qn":"Guess the clothe?"
+        "qn":"Shirt"
       },
       {
         "imageName":"/flashCard/clothes/shoes.png",
-        "qn":"Guess the clothe?"
+        "qn":"Shoes"
       },
       {
         "imageName":"/flashCard/clothes/shorts.png",
-        "qn":"Guess the clothe?"
+        "qn":"Shorts"
       },
       {
         "imageName":"/flashCard/clothes/skirt.png",
-        "qn":"Guess the clothe?"
+        "qn":"Skirt"
       },
       {
         "imageName":"/flashCard/clothes/socks.png",
-        "qn":"Guess the clothe?"
+        "qn":"Socks"
       },
       {
         "imageName":"/flashCard/clothes/sunglasses.png",
-        "qn":"Guess the clothe?"
+        "qn":"Sunglasses"
       },
       {
         "imageName":"/flashCard/clothes/trousers.png",
-        "qn":"Guess the clothe?"
+        "qn":"Trousers"
       },
       {
         "imageName":"/flashCard/clothes/tshirt.png",
-        "qn":"Guess the clothe?"
+        "qn":"T-shirt"
       }
 
     ]
