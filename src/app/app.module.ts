@@ -57,6 +57,8 @@ import {PeppaPigComponent} from "./flashcard/cartoon/peppapig/peppapig.component
 import {MyFirstWordsComponent} from "./flashcard/myfirstwords/myfirstwords.component";
 import {WeatherComponent} from "./flashcard/weather/weather/weather.component";
 import {DisplayFlashCardomponent} from "./flashcard/displayFlashCard/displayFlashCard.component";
+import {SpeechTherapyActivityComponent} from "./flashcard/speechTherapyActivity/speechTherapyActivity/speechTherapyActivity.component";
+import {SpeechflashcardsComponent} from "./flashcard/speechTherapyActivity/speechflashcards/speechflashcards.component";
 
 @NgModule({
   declarations: [
@@ -106,7 +108,9 @@ import {DisplayFlashCardomponent} from "./flashcard/displayFlashCard/displayFlas
     PeppaPigComponent,
     MyFirstWordsComponent,
     WeatherComponent,
-    DisplayFlashCardomponent
+    DisplayFlashCardomponent,
+    SpeechTherapyActivityComponent,
+    SpeechflashcardsComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

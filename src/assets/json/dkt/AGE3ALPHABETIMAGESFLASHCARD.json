@@ -9,123 +9,112 @@
       "description":"",
       "url":"",
       "imageUrl":"",
-      "referralLink":[
-        {
-          "title":"Simple Arithematic questions on Multiplication",
-          "url":"https://www.service.nsw.gov.au/transaction/driver-knowledge-test",
-          "description":"Are you ready for DKT test? Try simulation test before you go for final test."
-        },
-        {
-          "title":"Simple Arithematic questions on Substraction",
-          "url":"https://www.rms.nsw.gov.au/roads/licence/driver/tests/driver-knowledge-test.html",
-          "description":"Government website for all informationunder one umbrella."
-        }
-      ]
+      "referralLink":[]
     },
     "questions":[
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/A.png",
-        "qn":"Guess the alphabet?"
+        "qn":"A"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/B.png",
-        "qn":"Guess the alphabet?"
+        "qn":"B"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/C.png",
-        "qn":"Guess the alphabet?"
+        "qn":"C"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/D.png",
-        "qn":"Guess the alphabet?"
+        "qn":"D"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/E.png",
-        "qn":"Guess the alphabet?"
+        "qn":"E"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/F.png",
-        "qn":"Guess the alphabet?"
+        "qn":"F"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/G.png",
-        "qn":"Guess the alphabet?"
+        "qn":"G"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/H.png",
-        "qn":"Guess the alphabet?"
+        "qn":"H"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/I.png",
-        "qn":"Guess the alphabet?"
+        "qn":"I"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/J.png",
-        "qn":"Guess the alphabet?"
+        "qn":"J"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/K.png",
-        "qn":"Guess the alphabet?"
+        "qn":"K"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/L.png",
-        "qn":"Guess the alphabet?"
+        "qn":"L"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/M.png",
-        "qn":"Guess the alphabet?"
+        "qn":"M"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/N.png",
-        "qn":"Guess the alphabet?"
+        "qn":"N"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/O.png",
-        "qn":"Guess the alphabet?"
+        "qn":"O"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/P.png",
-        "qn":"Guess the alphabet?"
+        "qn":"P"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/Q.png",
-        "qn":"Guess the alphabet?"
+        "qn":"Q"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/R.png",
-        "qn":"Guess the alphabet?"
+        "qn":"R"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/S.png",
-        "qn":"Guess the alphabet?"
+        "qn":"S"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/T.png",
-        "qn":"Guess the alphabet?"
+        "qn":"T"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/U.png",
-        "qn":"Guess the alphabet?"
+        "qn":"U"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/V.png",
-        "qn":"Guess the alphabet?"
+        "qn":"V"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/W.png",
-        "qn":"Guess the alphabet?"
+        "qn":"W"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/X.png",
-        "qn":"Guess the alphabet?"
+        "qn":"X"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/Y.png",
-        "qn":"Guess the alphabet?"
+        "qn":"Y"
       },
       {
         "imageName":"/flashCard/alphabet/alphabetImages0/Z.png",
-        "qn":"Guess the alphabet?"
+        "qn":"Z"
       }
     ]
   }

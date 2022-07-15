@@ -41,6 +41,8 @@ import {AdditionComponent} from "./flashcard/mathematics/addition/addition.compo
 import {PeppaPigComponent} from "./flashcard/cartoon/peppapig/peppapig.component";
 import {MyFirstWordsComponent} from "./flashcard/myfirstwords/myfirstwords.component";
 import {WeatherComponent} from "./flashcard/weather/weather/weather.component";
+import {SpeechTherapyActivityComponent} from "./flashcard/speechTherapyActivity/speechTherapyActivity/speechTherapyActivity.component";
+import {SpeechflashcardsComponent} from "./flashcard/speechTherapyActivity/speechflashcards/speechflashcards.component";
 
 
 export const appRoutes : Routes =[
@@ -127,6 +129,8 @@ export const appRoutes : Routes =[
     // {path:'age3-speech-development',component:Age3Component},
     // {path:'age4-speech-development',component:Age4Component},
     {path:'speech-development',component:SpeechComponent},
+    {path:'speech-therapy-activities',component:SpeechTherapyActivityComponent},
+    {path:'speech-flashcards-toddlers',component:SpeechflashcardsComponent},
 
     {path:'result',component:ResultComponent},
     {path:'main',component:MainComponent},

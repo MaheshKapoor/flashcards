@@ -90,7 +90,7 @@ export class FlashCardComponent implements OnInit {
 
   ngOnInit() {
     this.voices = speechSynthesis.getVoices();
-    this.selectedVoice = ( this.voices[ 4 ] || null );
+    this.selectedVoice = ( this.voices[ 5 ] || null );
     this.updateSayCommand();
 
     // The voices aren't immediately available (or so it seems). As such, if no
@@ -103,7 +103,7 @@ export class FlashCardComponent implements OnInit {
         () => {
 
           this.voices = speechSynthesis.getVoices();
-          this.selectedVoice = ( this.voices[ 4 ] || null );
+          this.selectedVoice = ( this.voices[ 5 ] || null );
           this.updateSayCommand();
 
         }
@@ -162,16 +162,15 @@ export class FlashCardComponent implements OnInit {
   submitQuiz(qId){
     if (qId == this.quizService.numberOfQuestions) {
       this.quizService.qnProgress++;
-   //   localStorage.setItem('qnProgress', this.quizService.qnProgress.toString());
       clearInterval(this.quizService.timer);
-      if(this.id && (this.id.slice(0,4)=== "AGE4")){
-        this.router.navigate(['/']);
-      } else if(this.id && (this.id.slice(0,4)=== "AGE3")){
-        this.router.navigate(['/']);
-      } else if(this.id && (this.id.slice(0,4)=== "AGE2")){
-        this.router.navigate(['/']);
-      } else if(this.id && (this.id.slice(0,4)=== "AGE1")) {
-        this.router.navigate(['/']);
+      if(this.id && ("age4"===this.id.slice(0,4) || "AGE4"===this.id.slice(0,4))){
+        this.router.navigate(['/age4-vocabulary-flashcards']);
+      } else if(this.id && (this.id.slice(0,4)=== "AGE3" || this.id.slice(0,4)=== "age3")){
+        this.router.navigate(['/age3-vocabulary-flashcards']);
+      } else if(this.id && (this.id.slice(0,4)=== "AGE2" || this.id.slice(0,4)=== "age2")){
+        this.router.navigate(['/age2-vocabulary-flashcards']);
+      } else if(this.id && (this.id.slice(0,4)=== "AGE1" || this.id.slice(0,4)=== "age1")) {
+        this.router.navigate(['/age1-vocabulary-flashcards']);
       } else{
         this.router.navigate(['/']);
       }
@@ -189,7 +188,7 @@ export class FlashCardComponent implements OnInit {
           if ((this.quizService.qnProgress == this.quizService.numberOfQuestions - 1)) {
             clearInterval(this.autoPlayInterval);
           }
-        }, 5000);
+        }, 9000);
       this.isAutoPlay = !this.isAutoPlay;
       }else{
       clearInterval(this.autoPlayInterval);

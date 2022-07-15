@@ -14,39 +14,39 @@
     "questions":[
       {
         "imageName":"/flashCard/emotion/excited.png",
-        "qn":"I am excited"
+        "qn":"Excited"
       },
       {
         "imageName":"/flashCard/emotion/happy.png",
-        "qn":"I am happy"
+        "qn":"Happy"
       },
       {
         "imageName":"/flashCard/emotion/hot.png",
-        "qn":"It's hot"
+        "qn":"Hot"
       },
       {
         "imageName":"/flashCard/emotion/nervous.png",
-        "qn":"I am nervous"
+        "qn":"Nervous"
       },
       {
         "imageName":"/flashCard/emotion/ok.png",
-        "qn":"It's ok"
+        "qn":"Ok"
       },
       {
         "imageName":"/flashCard/emotion/sad.png",
-        "qn":"I am sad"
+        "qn":"Sad"
       },
       {
         "imageName":"/flashCard/emotion/scared.png",
-        "qn":"I am scared"
+        "qn":"Scared"
       },
       {
         "imageName":"/flashCard/emotion/sick.png",
-        "qn":"I am sick"
+        "qn":"Sick"
       },
       {
         "imageName":"/flashCard/emotion/tired.png",
-        "qn":"I am tired"
+        "qn":"Tired"
       }
 
     ]

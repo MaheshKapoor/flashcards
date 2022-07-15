@@ -25,31 +25,31 @@
     "questions":[
       {
         "imageName":"/flashCard/daysofweek/friday.png",
-        "qn":"Guess the day?"
+        "qn":"Friday"
       },
       {
         "imageName":"/flashCard/daysofweek/monday.png",
-        "qn":"Guess the day?"
+        "qn":"Monday"
       },
       {
         "imageName":"/flashCard/daysofweek/saturday.png",
-        "qn":"Guess the day?"
+        "qn":"Saturday"
       },
       {
         "imageName":"/flashCard/daysofweek/sunday.png",
-        "qn":"Guess the day?"
+        "qn":"Sunday"
       },
       {
         "imageName":"/flashCard/daysofweek/thursday.png",
-        "qn":"Guess the day?"
+        "qn":"Thursday"
       },
       {
         "imageName":"/flashCard/daysofweek/tuesday.png",
-        "qn":"Guess the day?"
+        "qn":"Tuesday"
       },
       {
         "imageName":"/flashCard/daysofweek/wednesday.png",
-        "qn":"Guess the day?"
+        "qn":"Wednesday"
       }
 
     ]
